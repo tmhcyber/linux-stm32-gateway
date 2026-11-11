@@ -1,0 +1,23 @@
+test_capture_from_pty_saves_original_bytes (test_serial_capture.FramingTests.test_capture_from_pty_saves_original_bytes) ... ok
+test_exact_boundary_then_overlong_resynchronization (test_serial_capture.FramingTests.test_exact_boundary_then_overlong_resynchronization) ... ok
+test_multiple_lines_in_one_read (test_serial_capture.FramingTests.test_multiple_lines_in_one_read) ... ok
+test_startup_partial_discard_and_split_delimiter (test_serial_capture.FramingTests.test_startup_partial_discard_and_split_delimiter) ... ok
+test_unterminated_input_has_bounded_buffer (test_serial_capture.FramingTests.test_unterminated_input_has_bounded_buffer) ... ok
+test_reject_hash_mismatch_before_writing (test_source_sync.SyncTests.test_reject_hash_mismatch_before_writing) ... ok
+test_reject_paths_into_history_or_outside_snapshot (test_source_sync.SyncTests.test_reject_paths_into_history_or_outside_snapshot) ... ok
+test_verified_snapshot_preserves_history_and_records_build_origin (test_source_sync.SyncTests.test_verified_snapshot_preserves_history_and_records_build_origin) ... ok
+test_explicit_scope_required (test_stage1_reliability.EnvironmentTests.test_explicit_scope_required) ... ok
+test_mqtt_failures (test_stage1_reliability.EnvironmentTests.test_mqtt_failures) ... ok
+test_serial_requirements (test_stage1_reliability.EnvironmentTests.test_serial_requirements) ... ok
+test_storage_dependency_failure (test_stage1_reliability.EnvironmentTests.test_storage_dependency_failure) ... ok
+test_daily_configuration_needs_no_sudo_and_sets_8n1 (test_stage1_reliability.ProcessTests.test_daily_configuration_needs_no_sudo_and_sets_8n1) ... ok
+test_interrupts_preserve_partial_records_and_exit_code (test_stage1_reliability.ProcessTests.test_interrupts_preserve_partial_records_and_exit_code) ... ok
+test_no_input_returns_two (test_stage1_reliability.ProcessTests.test_no_input_returns_two) ... ok
+test_open_failure_returns_one_with_artifacts (test_stage1_reliability.ProcessTests.test_open_failure_returns_one_with_artifacts) ... ok
+test_pty_link_end_returns_one (test_stage1_reliability.ProcessTests.test_pty_link_end_returns_one) ... ok
+test_simultaneous_pollin_hup_drains_tail (test_stage1_reliability.ProcessTests.test_simultaneous_pollin_hup_drains_tail) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 3.010s
+
+OK

@@ -6,12 +6,7 @@ if [[ ! -c "$port" ]]; then
   exit 1
 fi
 
-# This dedicated development VM has no cellular-modem workload. Its serial
-# capture became clean after stopping ModemManager and preserving raw 115200.
-# Do not apply this service policy to an unrelated Linux workstation.
-if systemctl cat ModemManager.service >/dev/null 2>&1; then
-  sudo systemctl unmask --runtime ModemManager.service
-  sudo systemctl mask --now ModemManager.service
-fi
-stty -F "$port" 115200 raw -echo -ixon -ixoff -crtscts -hupcl clocal
+# Daily operation: no privilege escalation or service changes.
+stty -F "$port" 115200 raw cs8 -parenb -parodd -cstopb cread \
+  -echo -echonl -iexten -ixon -ixoff -ixany -crtscts -hupcl clocal
 stty -F "$port" -a

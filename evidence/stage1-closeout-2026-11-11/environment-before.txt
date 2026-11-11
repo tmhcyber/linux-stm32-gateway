@@ -1,0 +1,9 @@
+INFO: serial-getty@ttyS1.service inactive
+INFO: ModemManager.service inactive
+INFO: device enumeration (auxiliary only)
+crw-rw---- 1 root dialout 4, 65 Nov 11 08:51 /dev/ttyS1
+READY: serial
+FAIL: missing command: sqlite3
+FAIL: SQLite development dependency unavailable (libsqlite3-dev/pkg-config)
+FAILED: storage (2 requirements)
+READY: mqtt

@@ -1,0 +1,38 @@
+{
+  "snapshot": "20261111T114532Z-ffe00fb1",
+  "git_commit": "<PRIVATE_SOURCE_COMMIT>",
+  "git_dirty": true,
+  "git_status": "<OMITTED_FROM_PUBLIC_COPY>",
+  "created_at_utc": "2026-11-11T11:45:32.253833+00:00",
+  "source_manifest_sha256": "662b4fb168071307159ef4a54c61d9d4d817f5d1f1aa1fb8cb55309048a0c6be",
+  "files": {
+    ".gitattributes": "e80394fcd8cc3f0407a92378816fa5c9a4e67d4ca31310dc94058d50f1693757",
+    ".gitignore": "0fac4609ea2ea4389351c43f7585cb76d2ca14998dd3e14ba20e777895398f3e",
+    "README.md": "98a88222eafd463ba9b5276b0e0518bbee85eba4ffa45be631609a6e9296df25",
+    "docs/STAGE1.md": "9d39905c4982d8c8e151292ae637b74937a7f510b0477b2be85b6e2b29424899",
+    "scripts/linux/capture_serial.py": "73a95283224fd28b976b686ead484f902352e46fa31b84cfd053f6908d680879",
+    "scripts/linux/check_environment.sh": "33795e316f126a11c805a487f3c7ab2d147eb4125ef04d97181bbc10f7d05717",
+    "scripts/linux/configure_serial.sh": "5ca0eba2a79d33c99c495ec6cb635c3bab1a20f72b31d11fa762a18e58affb36",
+    "scripts/linux/install_dependencies.sh": "e2135d6ecd5bd4014755dd4efa4afc73179ec3d5f9eca0febe680718526d986b",
+    "scripts/linux/receive_source.py": "0163ade147197817c52f8ec0cfe1186668d9a7d42896cbb1981d52e054031fea",
+    "scripts/linux/set_apt_mirror.sh": "9d711f8c3ecd6b7ce96d72a3bc0f130c71bed6d3086c982b3613a13c8d8a5a37",
+    "scripts/linux/setup_dedicated_serial_vm.sh": "340f501d1c45bb81734936b987457f53667ec9f2c310942ae6499f1d0b4e567a",
+    "scripts/windows/Connect-Ubuntu.ps1": "ac776808235f40f4216bb56699ec970d59888e6ca4280239c3e6370d2ce81adc",
+    "scripts/windows/New-UbuntuVm.ps1": "9f22e2556e857c31879e53a99688a44409e6be9a3d56113d02cdb6767354670d",
+    "scripts/windows/Set-HostSerial.ps1": "a4290ae538ff0faa0d08b2728665dc0f0f7f07543b09d4c7ce41da3624c7ac53",
+    "scripts/windows/Sync-Ubuntu.ps1": "3dee0ed7a7645077fff29928be9be305354df65c885e00d53f030c7a2fe35b67",
+    "scripts/windows/prepare_seed.py": "004916248c541b31344211c64b520cebf95c718b13a18b3c487095d8c072bdbb",
+    "scripts/windows/sync_source.py": "7eaf864239759a36ff3c50e6b3c518d476fd374e7126152ea9435ca97c6a14b5",
+    "tests/dev_dependency_probe.c": "49f18ec70965d518785898aa1400ae94761310f3c4ef76f9d73d9f23aee0594a",
+    "tests/test_serial_capture.py": "d0a8a899305fd60fc64ebdc6d832cb6508c048becdfb3c9b4220cd1919a7bdc4",
+    "tests/test_source_sync.py": "4f733f907fae27aaecb7c7a3ed41be746aae46e760f9d8a19a94bf907ff008ab",
+    "tests/test_stage1_reliability.py": "bd3ecb9939ab70b50d7e57968a6a2b010cb0a64beafd37dd9385224d35d8d5bb"
+  },
+  "host_tools": {
+    "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+    "git": "git version 2.53.0.windows.2",
+    "transport": "Python tarfile + OpenSSH",
+    "ssh": "OpenSSH_for_Windows_9.5p1, LibreSSL 3.8.2"
+  },
+  "publication_notice": "Privacy-redacted public copy. Original evidence is retained privately. Capture raw.bin and telemetry lines are unchanged; hashes in historical metadata describe private originals, not the redacted public tree."
+}

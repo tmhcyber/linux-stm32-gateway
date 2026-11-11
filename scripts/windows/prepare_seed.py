@@ -15,6 +15,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--port', type=int, default=2222)
     args = parser.parse_args()
+    if not 1 <= args.port <= 65535:
+        parser.error('--port must be between 1 and 65535')
     import pycdlib
 
     local = ROOT / '.local'
@@ -34,12 +36,11 @@ def main():
                    'shell': '/bin/bash', 'lock_passwd': True,
                    'sudo': 'ALL=(ALL) NOPASSWD:ALL',
                    'ssh_authorized_keys': [public_key]}],
-        'package_update': True,
-        'packages': ['build-essential', 'gdb', 'git', 'pkg-config', 'python3',
-                     'usbutils', 'mosquitto', 'mosquitto-clients',
-                     'libmosquitto-dev'],
         'runcmd': [
             ['install', '-d', '-o', 'ubuntu', '-g', 'ubuntu', '/home/ubuntu/project'],
+            ['install', '-d', '-o', 'ubuntu', '-g', 'ubuntu',
+             '/home/ubuntu/project/source', '/home/ubuntu/project/build',
+             '/home/ubuntu/project/evidence'],
             ['sh', '-c', "date -u +%FT%TZ > /var/tmp/stm32-stage1-cloud-init.done"],
         ],
     }

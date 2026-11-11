@@ -21,6 +21,12 @@ function Invoke-VBox {
 if (-not (Test-Path -LiteralPath $VBoxManage)) { throw 'Install VirtualBox first.' }
 if (-not (Test-Path -LiteralPath $image)) { throw 'Download and verify the official Ubuntu VMDK first.' }
 if (-not (Test-Path -LiteralPath $seed)) { throw 'Run prepare_seed.py first.' }
+$sshConfig = Join-Path $root '.local/ssh_config'
+if (-not (Test-Path -LiteralPath $sshConfig)) { throw 'Run prepare_seed.py first.' }
+$ports = @((Get-Content -LiteralPath $sshConfig) | Select-String '^\s*Port\s+(\d+)\s*$')
+if ($ports.Count -ne 1 -or [int]$ports[0].Matches[0].Groups[1].Value -ne $SshPort) {
+    throw 'SSH seed/config port differs from -SshPort; regenerate seed with matching --port before VM creation.'
+}
 $existing = & $VBoxManage list vms
 if ($existing | Where-Object { $_ -match ('^"' + [regex]::Escape($VmName) + '" ') }) {
     throw "VM already exists: $VmName. Inspect it instead of overwriting it."

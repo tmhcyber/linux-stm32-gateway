@@ -1,0 +1,17 @@
+speed 115200 baud; rows 0; columns 0; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>;
+eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R;
+werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread clocal -crtscts
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr -icrnl -ixon -ixoff
+-iuclc -ixany -imaxbel -iutf8
+-opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+-isig -icanon -iexten -echo echoe echok -echonl -noflsh -xcase -tostop -echoprt
+echoctl echoke -flusho -extproc
+SQLite 3.45.1; libmosquitto 2.0.18
+a31d40e2dfa321e0a73d0904eb723b772ef054c01374be29df3e01d7b7edd916  <PROJECT>/build/20261111T114532Z-ffe00fb1/SOURCE.json
+a31d40e2dfa321e0a73d0904eb723b772ef054c01374be29df3e01d7b7edd916  SOURCE.json
+9f56f8e1ca4647647e0af0193a7ca38c8e28f138cc69c1ba3a64281b1c1aaa27  <PROJECT>/build/20261111T114532Z-ffe00fb1/dependency-probe
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+3.45.1
+2.0.18

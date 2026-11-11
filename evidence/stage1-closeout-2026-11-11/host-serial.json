@@ -1,0 +1,6 @@
+{
+  "Name": "USB-SERIAL CH340 (COM11)",
+  "Status": "OK",
+  "PNPDeviceID": "USB\\VID_1A86&PID_7523\\<REDACTED_DEVICE_INSTANCE>",
+  "publication_notice": "Privacy-redacted public copy. Original evidence is retained privately. Capture raw.bin and telemetry lines are unchanged; hashes in historical metadata describe private originals, not the redacted public tree."
+}

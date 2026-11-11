@@ -1,0 +1,16 @@
+{
+  "snapshot": "20261111T114532Z-ffe00fb1",
+  "git_commit": "<PRIVATE_SOURCE_COMMIT>",
+  "git_dirty": true,
+  "source_manifest_sha256": "662b4fb168071307159ef4a54c61d9d4d817f5d1f1aa1fb8cb55309048a0c6be",
+  "files_verified": 21,
+  "source_dir": "<PROJECT>/source/20261111T114532Z-ffe00fb1",
+  "build_dir": "<PROJECT>/build/20261111T114532Z-ffe00fb1",
+  "guest_tools": {
+    "python": "Python 3.12.3",
+    "gcc": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+    "make": "GNU Make 4.3",
+    "pkg-config": "1.8.1"
+  },
+  "publication_notice": "Privacy-redacted public copy. Original evidence is retained privately. Capture raw.bin and telemetry lines are unchanged; hashes in historical metadata describe private originals, not the redacted public tree."
+}

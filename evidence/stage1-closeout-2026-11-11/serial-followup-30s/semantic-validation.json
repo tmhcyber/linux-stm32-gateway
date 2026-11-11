@@ -1,0 +1,19 @@
+{
+  "reference_parser": "<FIRMWARE_WORKSPACE>\\Tools\\pc_uplink_receiver.py",
+  "reference_parser_sha256": "90b8ea84d3f679fbd75bf6d93f2ba91eade520b0263a5af433875c4e911aa231",
+  "input_sha256": "db2c8038760bac098d08463465459e60faab57a8bba2df820245cd69d48d9a6c",
+  "valid_records": 29,
+  "parse_errors": [],
+  "first_seq": 9472,
+  "last_seq": 9500,
+  "sequence_step_counts": {
+    "1": 28
+  },
+  "point_states": {
+    "VALID+OK": 58
+  },
+  "value_ms_first": 9471015,
+  "value_ms_last": 9499015,
+  "limitation": "Reference parser incorrectly rejects firmware startup NOT_AVAILABLE+NACK; matching rejections are classified, never suppressed.",
+  "publication_notice": "Privacy-redacted public copy. Original evidence is retained privately. Capture raw.bin and telemetry lines are unchanged; hashes in historical metadata describe private originals, not the redacted public tree."
+}
