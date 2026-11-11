@@ -1,0 +1,8 @@
+{
+  "Installer": "<WORKSPACE>\\.local\\downloads\\VirtualBox-7.2.22-175245-Win.exe",
+  "Sha256": "afd0ff1656cbe04ed88ce619594ae021419d97cce89fa9bdc443e9a963f1713f",
+  "ChecksumMatches": true,
+  "SignatureStatus": "Valid",
+  "Signer": "CN=\"Oracle America, Inc.\", O=\"Oracle America, Inc.\", L=Redwood City, S=California, C=US",
+  "publication_notice": "Privacy-redacted public copy. Original evidence is retained privately. Capture raw.bin and telemetry lines are unchanged; hashes in historical metadata describe private originals, not the redacted public tree."
+}

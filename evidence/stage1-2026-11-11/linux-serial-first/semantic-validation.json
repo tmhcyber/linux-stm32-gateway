@@ -1,0 +1,19 @@
+{
+  "reference_parser": "<FIRMWARE_WORKSPACE>\\Tools\\pc_uplink_receiver.py",
+  "valid_records": 74,
+  "parse_errors": [
+    {
+      "line": 34,
+      "code": "SCHEMA",
+      "error": "invalid field set: missing=coal,flags,gap,n,p0.id,p0.quality,p0.scale,p0.seq,p0.src,p0.status,p0.status_ms,p0.unit,p0.value,p0.value_ms,p1.id,p1.quality,p1.scale,p1.src,p1.status,p1.status_ms,p1.unit,p1.value,p1.value_ms,reason,snap,v; unknown=tatus_ms",
+      "prefix": "tatus_ms=36015;p1.seq=37;"
+    }
+  ],
+  "first_seq": 193,
+  "last_seq": 78,
+  "sequence_step_counts": {
+    "1": 72,
+    "4294967109": 1
+  },
+  "publication_notice": "Privacy-redacted public copy. Original evidence is retained privately. Capture raw.bin and telemetry lines are unchanged; hashes in historical metadata describe private originals, not the redacted public tree."
+}

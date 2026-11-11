@@ -1,0 +1,8 @@
+{
+  "CheckedAt": "2026-11-11T07:46:56.2471394Z",
+  "Source": "https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.vmdk",
+  "Sha256": "9a1e3959c9f4ad9d4752101fd4ff9a43191fb7d72e61fa20e033f9fd235ce794",
+  "ChecksumMatches": true,
+  "Bytes": 590749696,
+  "publication_notice": "Privacy-redacted public copy. Original evidence is retained privately. Capture raw.bin and telemetry lines are unchanged; hashes in historical metadata describe private originals, not the redacted public tree."
+}

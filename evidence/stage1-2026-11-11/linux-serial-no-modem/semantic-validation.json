@@ -1,0 +1,11 @@
+{
+  "reference_parser": "<FIRMWARE_WORKSPACE>\\Tools\\pc_uplink_receiver.py",
+  "valid_records": 29,
+  "parse_errors": [],
+  "first_seq": 291,
+  "last_seq": 319,
+  "sequence_step_counts": {
+    "1": 28
+  },
+  "publication_notice": "Privacy-redacted public copy. Original evidence is retained privately. Capture raw.bin and telemetry lines are unchanged; hashes in historical metadata describe private originals, not the redacted public tree."
+}

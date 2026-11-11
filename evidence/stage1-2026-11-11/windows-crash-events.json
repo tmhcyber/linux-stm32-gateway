@@ -1,0 +1,23 @@
+{
+  "events": [
+    {
+      "TimeCreated": "2026-11-11T15:52:43.5279387+08:00",
+      "Id": 1001,
+      "ProviderName": "Microsoft-Windows-WER-SystemErrorReporting",
+      "BugCheck": "0xCA",
+      "Parameter1": "0x2",
+      "Dump": "<LOCAL_CRASH_DUMP>"
+    },
+    {
+      "TimeCreated": "2026-11-11T15:52:31.2005304+08:00",
+      "Id": 41,
+      "ProviderName": "Microsoft-Windows-Kernel-Power"
+    },
+    {
+      "TimeCreated": "2026-11-11T15:52:44.9714881+08:00",
+      "Id": 6008,
+      "ProviderName": "EventLog"
+    }
+  ],
+  "publication_notice": "Privacy-redacted public copy. Original evidence is retained privately. Capture raw.bin and telemetry lines are unchanged; hashes in historical metadata describe private originals, not the redacted public tree."
+}

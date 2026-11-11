@@ -1,0 +1,30 @@
+Debug session time: Wed Nov 11 15:52:12.156 2026 (UTC + 8:00)
+Call Site (addresses omitted)
+nt!KeBugCheckEx
+VBoxUSBMon!ASMAtomicBitClear+0x2ce3
+VBoxUSBMon!ASMAtomicBitClear+0x1e30
+VBoxUSBMon!ASMAtomicBitClear+0xe5e
+VBoxUSBMon!ASMAtomicBitClear+0xa1b
+nt!IofCompleteRequest+0x164
+nt!IofCompleteRequest+0x17
+nt!IofCallDriver+0x55
+hrdevmon+0x6492
+nt!IofCallDriver+0x55
+UsbDk+0xbaa5
+VBoxUSBMon!ASMAtomicBitClear+0x1527
+nt!IofCallDriver+0x55
+UsbDk+0x7b98
+UsbDk+0x842e
+UsbDk+0x8078
+UsbDk+0x8887
+UsbDk+0xbff3
+UsbDk+0xa804
+UsbDk+0xa0fa
+UsbDk+0x940c
+UsbDk+0xa09e
+UsbDk+0x9ff0
+UsbDk+0xbe9f
+UsbDk+0x9f43
+UsbDk+0x9e87
+UsbDk+0x9c4d
+UsbDk+0xba8c

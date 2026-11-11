@@ -1,0 +1,10 @@
+test_capture_from_pty_saves_original_bytes (test_serial_capture.FramingTests.test_capture_from_pty_saves_original_bytes) ... ok
+test_exact_boundary_then_overlong_resynchronization (test_serial_capture.FramingTests.test_exact_boundary_then_overlong_resynchronization) ... ok
+test_multiple_lines_in_one_read (test_serial_capture.FramingTests.test_multiple_lines_in_one_read) ... ok
+test_startup_partial_discard_and_split_delimiter (test_serial_capture.FramingTests.test_startup_partial_discard_and_split_delimiter) ... ok
+test_unterminated_input_has_bounded_buffer (test_serial_capture.FramingTests.test_unterminated_input_has_bounded_buffer) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.625s
+
+OK

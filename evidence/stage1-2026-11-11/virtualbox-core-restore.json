@@ -1,0 +1,6 @@
+{
+  "Action": "Restore VBoxSup core driver only; USB driver stays removed",
+  "ExitCode": 0,
+  "CheckedAt": "2026-11-11T08:50:36.5659465Z",
+  "publication_notice": "Privacy-redacted public copy. Original evidence is retained privately. Capture raw.bin and telemetry lines are unchanged; hashes in historical metadata describe private originals, not the redacted public tree."
+}

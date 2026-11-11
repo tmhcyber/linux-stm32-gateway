@@ -1,0 +1,9 @@
+memory=4096
+cpus=2
+VMState="running"
+Forwarding(0)="ssh,tcp,127.0.0.1,2222,,22"
+uart2="0x02f8,3"
+uartmode2="\\.\COM11"
+usb="off"
+ehci="off"
+xhci="off"

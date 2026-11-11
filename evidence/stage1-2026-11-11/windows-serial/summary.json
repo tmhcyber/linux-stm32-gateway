@@ -1,0 +1,18 @@
+{
+  "host": "Windows",
+  "port": "COM11",
+  "started_at_utc": "2026-11-11T08:01:30.908984+00:00",
+  "finished_at_utc": "2026-11-11T08:02:00.996862+00:00",
+  "duration_seconds": 30,
+  "valid_records": 29,
+  "parse_errors": [],
+  "bytes_received": 11041,
+  "reference_parser": "<FIRMWARE_WORKSPACE>\\Tools\\pc_uplink_receiver.py",
+  "scope": "Windows-side board verification only; not Linux USB passthrough",
+  "first_seq": 437,
+  "last_seq": 465,
+  "last_temperature_c": "25.198",
+  "last_humidity_rh": "51.002",
+  "last_quality": "VALID",
+  "publication_notice": "Privacy-redacted public copy. Original evidence is retained privately. Capture raw.bin and telemetry lines are unchanged; hashes in historical metadata describe private originals, not the redacted public tree."
+}

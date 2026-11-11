@@ -1,0 +1,23 @@
+{
+  "started_at_utc": "2026-11-11T08:55:21.190099+00:00",
+  "port": "/dev/ttyS1",
+  "resolved_port": "/dev/ttyS1",
+  "baud": 115200,
+  "format": "8N1",
+  "flow_control": "none",
+  "requested_duration_s": 30.0,
+  "host": "Linux",
+  "architecture": "x86_64",
+  "bytes_received": 27330,
+  "complete_lines": 75,
+  "v1_candidate_lines": 74,
+  "non_ascii_lines": 0,
+  "protocol_validation": "framing and v1 prefix only; semantics not checked",
+  "exit_reason": "duration_elapsed",
+  "finished_at_utc": "2026-11-11T08:55:51.369980+00:00",
+  "elapsed_s": 30.18,
+  "startup_discards": 1,
+  "overlong_lines": 0,
+  "resyncs": 0,
+  "publication_notice": "Privacy-redacted public copy. Original evidence is retained privately. Capture raw.bin and telemetry lines are unchanged; hashes in historical metadata describe private originals, not the redacted public tree."
+}

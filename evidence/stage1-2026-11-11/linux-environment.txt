@@ -1,0 +1,46 @@
+=== OS ===
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.5 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+x86_64
+
+=== Toolchain ===
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+GNU Make 4.3
+GNU gdb (Ubuntu 15.1-1ubuntu1~24.04.1) 15.1
+Python 3.12.3
+2.0.18
+
+=== Packages ===
+build-essential	12.10ubuntu1
+gdb	15.1-1ubuntu1~24.04.1
+git	1:2.43.0-1ubuntu7.4
+libmosquitto-dev:amd64	2.0.18-1build3
+mosquitto	2.0.18-1build3
+mosquitto-clients	2.0.18-1build3
+pkg-config:amd64	1.8.1-2build1
+python3	3.12.3-0ubuntu2.1
+usbutils	1:017-3build1
+
+=== Account ===
+uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),4(adm),20(dialout),27(sudo)
+
+=== USB and serial ===
+
+=== Host serial mapping ===
+crw-rw---- 1 root dialout 4, 65 Nov 11 08:51 /dev/ttyS1
+
+=== Broker listener (observation only) ===
+State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+LISTEN 0      100        127.0.0.1:1883      0.0.0.0:*          
+LISTEN 0      100            [::1]:1883         [::]:*          
