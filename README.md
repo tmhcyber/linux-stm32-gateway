@@ -7,6 +7,7 @@
 - [阶段 1 操作说明](docs/STAGE1.md)
 - [阶段 1 实际进度与证据](evidence/stage1-2026-11-11/REPORT.md)
 - [阶段 1 收口结果](evidence/stage1-closeout-2026-11-11/REPORT.md)
+- [公开副本、隐私处理与发布检查](docs/PUBLICATION.md)
 - 原始总体方案：`<PLANNING_WORKSPACE>\docs\LINUX_STM32_MQTT_GATEWAY_PLAN.md`
 
 Windows 中用 PowerShell 管理虚拟机；Ubuntu 中以普通用户从 `/dev/ttyS1` 读取映射的板载 CH340 输出。蓝屏后已移除 VirtualBox USB 直通驱动，当前不使用 USB 设备直通。虚拟机、下载文件和 SSH 私钥位于忽略目录 `.local/`。

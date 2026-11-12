@@ -16,6 +16,7 @@ Windows：先安装已校验的 VirtualBox，首次安装驱动需要 Windows �
 
 ```powershell
 python -m pip install --target .local/python-deps pycdlib
+# 先按 docs/PUBLICATION.md 准备加密 SSH 私钥和私有 sudo 密码哈希。
 python scripts/windows/prepare_seed.py
 ./scripts/windows/New-UbuntuVm.ps1 -HostSerialPort COM11
 ./scripts/windows/Connect-Ubuntu.ps1
