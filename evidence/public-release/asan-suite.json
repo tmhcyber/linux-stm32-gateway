@@ -1,0 +1,459 @@
+{
+  "tests_run": 90,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "outcomes": [
+    {
+      "test": "test_actual_c_vectors_pure_and_mixed_repeated_late (test_diagnostic.DiagnosticTests.test_actual_c_vectors_pure_and_mixed_repeated_late)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_ipc_late_diagnostic_only_silence_then_telemetry_recovery (test_diagnostic.DiagnosticTests.test_ipc_late_diagnostic_only_silence_then_telemetry_recovery)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_mqtt_diagnostic_state_and_old_telemetry_isolation (test_diagnostic.DiagnosticTests.test_mqtt_diagnostic_state_and_old_telemetry_isolation)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_queue_full_sql_failure_and_signal_accounting (test_diagnostic.DiagnosticTests.test_queue_full_sql_failure_and_signal_accounting)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_slow_storage_recovers_without_blocking_diagnostic_receive (test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_strict_diagnostic_rejections_and_recovery (test_diagnostic.DiagnosticTests.test_strict_diagnostic_rejections_and_recovery)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_v2_migration_failure_is_atomic (test_diagnostic.DiagnosticTests.test_v2_migration_failure_is_atomic)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_v2_private_copy_migration_and_rejection (test_diagnostic.DiagnosticTests.test_v2_private_copy_migration_and_rejection)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_empty_partial_and_no_overwrite (test_gateway.GatewayTests.test_empty_partial_and_no_overwrite)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_firmware_states_and_last_value_semantics (test_gateway.GatewayTests.test_firmware_states_and_last_value_semantics)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_hup_and_open_failure_summary_retry (test_gateway.GatewayTests.test_hup_and_open_failure_summary_retry)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_integer_and_semantic_edges (test_gateway.GatewayTests.test_integer_and_semantic_edges)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_invalid_data_does_not_refresh_silent_deadline (test_gateway.GatewayTests.test_invalid_data_does_not_refresh_silent_deadline)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_pty_byte_segmentation_multi_frame_and_settings (test_gateway.GatewayTests.test_pty_byte_segmentation_multi_frame_and_settings)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_pty_reconnect_resync_and_restore (test_gateway.GatewayTests.test_pty_reconnect_resync_and_restore)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_signal_preserves_partial_window (test_gateway.GatewayTests.test_signal_preserves_partial_window)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_silent_recovers_only_on_legal_telemetry (test_gateway.GatewayTests.test_silent_recovers_only_on_legal_telemetry)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_strict_rejections_recover (test_gateway.GatewayTests.test_strict_rejections_recover)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_sync_overlong_raw_and_sequence (test_gateway.GatewayTests.test_sync_overlong_raw_and_sequence)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_busy_queries_expire_without_poisoning_storage (test_ipc.IpcTests.test_busy_queries_expire_without_poisoning_storage)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_client_request_timeout (test_ipc.IpcTests.test_client_request_timeout)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_disconnected_query_never_reaches_new_client (test_ipc.IpcTests.test_disconnected_query_never_reaches_new_client)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_empty_db_incomplete_and_idle_timeout (test_ipc.IpcTests.test_empty_db_incomplete_and_idle_timeout)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_history_duplicate_time_cross_run_order_boundaries_and_retired_cursor (test_ipc.IpcTests.test_history_duplicate_time_cross_run_order_boundaries_and_retired_cursor)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_latest_keeps_source_quality_and_receive_age_separate (test_ipc.IpcTests.test_latest_keeps_source_quality_and_receive_age_separate)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_saturated_clients_and_fragment_deadline (test_ipc.IpcTests.test_saturated_clients_and_fragment_deadline)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_segmented_pipeline_half_close_and_bad_requests (test_ipc.IpcTests.test_segmented_pipeline_half_close_and_bad_requests)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_slow_readers_timeouts_pressure_and_write_progress (test_ipc.IpcTests.test_slow_readers_timeouts_pressure_and_write_progress)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_stale_file_active_instance_and_socket_ownership (test_ipc.IpcTests.test_stale_file_active_instance_and_socket_ownership)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_status_latest_no_db_and_cli_codes (test_ipc.IpcTests.test_status_latest_no_db_and_cli_codes)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_ack_timeout_recreates_client_without_old_queue (test_mqtt.MqttTests.test_ack_timeout_recreates_client_without_old_queue)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_connack_deadline_and_bounded_exit (test_mqtt.MqttTests.test_connack_deadline_and_bounded_exit)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_content_quality_qos_retained_and_shutdown (test_mqtt.MqttTests.test_content_quality_qos_retained_and_shutdown)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_eof_drain_and_mqtt_cli_validation (test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_idle_silence_network_loop_and_thread_roles (test_mqtt.MqttTests.test_idle_silence_network_loop_and_thread_roles)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_initial_broker_absent_latest_only_and_mailbox_bound (test_mqtt.MqttTests.test_initial_broker_absent_latest_only_and_mailbox_bound)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_killed_private_child_delivers_lwt (test_mqtt.MqttTests.test_killed_private_child_delivers_lwt)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_natural_end_preserves_mqtt_failure_and_storage (test_mqtt.MqttTests.test_natural_end_preserves_mqtt_failure_and_storage)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_saturated_tcp_listener_has_deadline (test_mqtt.MqttTests.test_saturated_tcp_listener_has_deadline)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_expected_usage_signal_and_crash_codes_are_context_specific (test_process_audit.ProcessAuditTests.test_expected_usage_signal_and_crash_codes_are_context_specific)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_mapping_and_independent_assertion_remain_separate_failures (test_process_audit.ProcessAuditTests.test_mapping_and_independent_assertion_remain_separate_failures)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_mapping_requires_matching_exit_and_exact_runtime_diagnostic (test_process_audit.ProcessAuditTests.test_mapping_requires_matching_exit_and_exact_runtime_diagnostic)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_skips_do_not_count_as_full_pass (test_process_audit.ProcessAuditTests.test_skips_do_not_count_as_full_pass)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_tsan_report_is_never_hidden_by_mapping_text_or_expected_exit (test_process_audit.ProcessAuditTests.test_tsan_report_is_never_hidden_by_mapping_text_or_expected_exit)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_unknown_exit_is_not_inferred_to_be_mapping (test_process_audit.ProcessAuditTests.test_unknown_exit_is_not_inferred_to_be_mapping)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_accept_redacted_metadata_and_normal_telemetry (test_public_security.PublicGuardTests.test_accept_redacted_metadata_and_normal_telemetry)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_reject_machine_identifiers_and_private_artifacts (test_public_security.PublicGuardTests.test_reject_machine_identifiers_and_private_artifacts)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_actual_encrypted_identity_is_accepted (test_public_security.SeedPolicyTests.test_actual_encrypted_identity_is_accepted)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_malformed_key_is_rejected (test_public_security.SeedPolicyTests.test_malformed_key_is_rejected)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_sudo_hash_stays_private_and_plaintext_is_rejected (test_public_security.SeedPolicyTests.test_sudo_hash_stays_private_and_plaintext_is_rejected)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_sudo_requires_password_while_ssh_password_login_stays_disabled (test_public_security.SeedPolicyTests.test_sudo_requires_password_while_ssh_password_login_stays_disabled)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_unencrypted_key_is_rejected (test_public_security.SeedPolicyTests.test_unencrypted_key_is_rejected)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_capture_from_pty_saves_original_bytes (test_serial_capture.FramingTests.test_capture_from_pty_saves_original_bytes)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_exact_boundary_then_overlong_resynchronization (test_serial_capture.FramingTests.test_exact_boundary_then_overlong_resynchronization)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_multiple_lines_in_one_read (test_serial_capture.FramingTests.test_multiple_lines_in_one_read)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_startup_partial_discard_and_split_delimiter (test_serial_capture.FramingTests.test_startup_partial_discard_and_split_delimiter)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_unterminated_input_has_bounded_buffer (test_serial_capture.FramingTests.test_unterminated_input_has_bounded_buffer)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_reject_hash_mismatch_before_writing (test_source_sync.SyncTests.test_reject_hash_mismatch_before_writing)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_reject_paths_into_history_or_outside_snapshot (test_source_sync.SyncTests.test_reject_paths_into_history_or_outside_snapshot)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_verified_snapshot_preserves_history_and_records_build_origin (test_source_sync.SyncTests.test_verified_snapshot_preserves_history_and_records_build_origin)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_explicit_scope_required (test_stage1_reliability.EnvironmentTests.test_explicit_scope_required)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_mqtt_failures (test_stage1_reliability.EnvironmentTests.test_mqtt_failures)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_serial_requirements (test_stage1_reliability.EnvironmentTests.test_serial_requirements)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_storage_dependency_failure (test_stage1_reliability.EnvironmentTests.test_storage_dependency_failure)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_daily_configuration_needs_no_sudo_and_sets_8n1 (test_stage1_reliability.ProcessTests.test_daily_configuration_needs_no_sudo_and_sets_8n1)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_interrupts_preserve_partial_records_and_exit_code (test_stage1_reliability.ProcessTests.test_interrupts_preserve_partial_records_and_exit_code)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_no_input_returns_two (test_stage1_reliability.ProcessTests.test_no_input_returns_two)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_open_failure_returns_one_with_artifacts (test_stage1_reliability.ProcessTests.test_open_failure_returns_one_with_artifacts)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_pty_link_end_returns_one (test_stage1_reliability.ProcessTests.test_pty_link_end_returns_one)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_simultaneous_pollin_hup_drains_tail (test_stage1_reliability.ProcessTests.test_simultaneous_pollin_hup_drains_tail)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_basic_sigint_drains_underfull_batch (test_storage.StorageTests.test_basic_sigint_drains_underfull_batch)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_empty_eof_closes_thread_and_database (test_storage.StorageTests.test_empty_eof_closes_thread_and_database)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_monotonic_one_second_commit_visible_before_exit (test_storage.StorageTests.test_monotonic_one_second_commit_visible_before_exit)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_refuse_unowned_database_without_modifying_it (test_storage.StorageTests.test_refuse_unowned_database_without_modifying_it)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_replay_all_fields_batch_drain_and_reopen_append (test_storage.StorageTests.test_replay_all_fields_batch_drain_and_reopen_append)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_stream_boundary_errors_and_tail_keep_stage2_counts (test_storage.StorageTests.test_stream_boundary_errors_and_tail_keep_stage2_counts)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_busy_recovers_without_duplicates_and_resumes_new_frames (test_storage_failures.StorageFailureTests.test_busy_recovers_without_duplicates_and_resumes_new_frames)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_int_and_term_drain_backlog (test_storage_failures.StorageFailureTests.test_int_and_term_drain_backlog)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_migrate_v1_preserves_recent_history (test_storage_failures.StorageFailureTests.test_migrate_v1_preserves_recent_history)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_parse_overlong_and_disconnect_events_round_trip (test_storage_failures.StorageFailureTests.test_parse_overlong_and_disconnect_events_round_trip)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch (test_storage_failures.StorageFailureTests.test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_retention_batched_startup_and_monotonic_periodic_schedule (test_storage_failures.StorageFailureTests.test_retention_batched_startup_and_monotonic_periodic_schedule)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_sigkill_inside_sqlite_transaction_rolls_back (test_storage_failures.StorageFailureTests.test_sigkill_inside_sqlite_transaction_rolls_back)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_sigkill_preserves_commits_and_restart_reads_them (test_storage_failures.StorageFailureTests.test_sigkill_preserves_commits_and_restart_reads_them)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_signal_masks_route_termination_only_to_main (test_storage_failures.StorageFailureTests.test_signal_masks_route_termination_only_to_main)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_signals_without_input_close_worker (test_storage_failures.StorageFailureTests.test_signals_without_input_close_worker)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_silent_and_resumed_events_persist (test_storage_failures.StorageFailureTests.test_silent_and_resumed_events_persist)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_slow_writer_full_queue_continues_receiving (test_storage_failures.StorageFailureTests.test_slow_writer_full_queue_continues_receiving)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_sqlite_full_from_actual_page_limit_recovers (test_storage_failures.StorageFailureTests.test_sqlite_full_from_actual_page_limit_recovers)",
+      "kind": "passed",
+      "subtest": false
+    },
+    {
+      "test": "test_vfs_write_ioerror_recovers (test_storage_failures.StorageFailureTests.test_vfs_write_ioerror_recovers)",
+      "kind": "passed",
+      "subtest": false
+    }
+  ]
+}

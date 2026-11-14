@@ -191,6 +191,41 @@
       "kind": "original",
       "original_sha256": "8291e2846cd0ff947fe808ab034bf807bdb37fd8ede33647541774ac95bf1b5d",
       "public_sha256": "8291e2846cd0ff947fe808ab034bf807bdb37fd8ede33647541774ac95bf1b5d"
+    },
+    {
+      "path": "evidence/public-release/summary.json",
+      "source_path": "public-review/20261114T143620Z-5cc046f6/PUBLIC-RESULT.json",
+      "kind": "original",
+      "original_sha256": "e9b976045cbdf49c633cca0432f8ca1d99ceae19e49a30a5a5221dac9530e60f",
+      "public_sha256": "e9b976045cbdf49c633cca0432f8ca1d99ceae19e49a30a5a5221dac9530e60f"
+    },
+    {
+      "path": "evidence/public-release/full-result.json",
+      "source_path": "public-review/20261114T143620Z-5cc046f6/validation/result.json",
+      "kind": "original",
+      "original_sha256": "354f598bc23e3cbee626c9c9b2656fca76e8c2a69bd357e1e3d513c5b87357b6",
+      "public_sha256": "354f598bc23e3cbee626c9c9b2656fca76e8c2a69bd357e1e3d513c5b87357b6"
+    },
+    {
+      "path": "evidence/public-release/normal-suite.json",
+      "source_path": "public-review/20261114T143620Z-5cc046f6/validation/normal-suite.json",
+      "kind": "original",
+      "original_sha256": "83729f89534584f53e3adebedeeb76033e99267de0eb08c503300f74a9388565",
+      "public_sha256": "83729f89534584f53e3adebedeeb76033e99267de0eb08c503300f74a9388565"
+    },
+    {
+      "path": "evidence/public-release/asan-suite.json",
+      "source_path": "public-review/20261114T143620Z-5cc046f6/validation/asan-suite.json",
+      "kind": "original",
+      "original_sha256": "83729f89534584f53e3adebedeeb76033e99267de0eb08c503300f74a9388565",
+      "public_sha256": "83729f89534584f53e3adebedeeb76033e99267de0eb08c503300f74a9388565"
+    },
+    {
+      "path": "evidence/public-release/tsan.json",
+      "source_path": "public-review/20261114T143620Z-5cc046f6/validation/tsan/result.json",
+      "kind": "original",
+      "original_sha256": "99a4efec2b697bbef1522e1fb874ab523f929bb87d9237e0ab84b105d6236a32",
+      "public_sha256": "99a4efec2b697bbef1522e1fb874ab523f929bb87d9237e0ab84b105d6236a32"
     }
   ],
   "policy": "original = byte-for-byte; redacted_copy = paths/machine identifiers removed; derived = explicitly identified inputs"

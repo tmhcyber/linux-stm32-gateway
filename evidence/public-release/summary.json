@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "public_commit": "a03fe2be7150288880b89c31c7bc3749981a14a5",
+  "snapshot": "20261114T143620Z-5cc046f6",
+  "source_manifest_sha256": "1f8e2757480d66ceca7ca74ef5110f74bcdf623dca665f38a39096d2ddc5e278",
+  "normal": 90,
+  "asan": 90,
+  "tsan": {
+    "suite": 20,
+    "mqtt_suite": 9,
+    "ipc_suite": 11,
+    "diagnostic_suite": 8
+  },
+  "mcu_host": true,
+  "global_policy": {
+    "mmap_rnd_bits_before": "32",
+    "mmap_rnd_bits_after": "32",
+    "randomize_va_space": "2",
+    "unchanged": true
+  },
+  "demo": {
+    "telemetry": 20,
+    "diagnostics": 12
+  },
+  "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "python": "3.12.3",
+  "kernel": "6.8.0-149-generic"
+}

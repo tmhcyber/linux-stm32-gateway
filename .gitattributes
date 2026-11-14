@@ -8,3 +8,4 @@ scripts/** -text whitespace=cr-at-eol
 config/** -text whitespace=cr-at-eol
 fixtures/** -text whitespace=cr-at-eol
 evidence/results/** -text whitespace=cr-at-eol
+evidence/public-release/** -text whitespace=cr-at-eol
