@@ -11,7 +11,7 @@ python3 scripts/windows/check_publication.py
 python3 scripts/windows/check_public_history.py --ref HEAD
 ```
 
-测试使用临时数据库、私有PTY与回环broker。普通和ASan/UBSan各执行C边界检查及Python全回归；公开版本同时运行新增的安全回归。历史阶段6的83项和公开版当前统计分别保存在[验收索引](../evidence/README.md)与[发布复验](../evidence/PUBLIC_RELEASE.md)。
+公开版已在Ubuntu 24.04独立测试副本完成普通、ASan/UBSan各 **90项**及TSan专项 **48项**复验。测试使用临时数据库、私有PTY与回环broker，覆盖C边界检查、Python全回归和公开认证安全检查。[发布复验](../evidence/PUBLIC_RELEASE.md)提供逐项结果，阶段6原83项与实板结果见[验收索引](../evidence/README.md)。
 
 ## 准备独立源码快照
 
