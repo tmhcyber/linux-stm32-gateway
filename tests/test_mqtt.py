@@ -167,7 +167,7 @@ class MqttTests(unittest.TestCase):
     def test_ack_timeout_recreates_client_without_old_queue(self):
         peer=FaultPeer(self.root/'peer');self.resources.append(peer)
         proc,master,out=self.start(peer.port,db=False)
-        os.write(master,frame());wait_for(lambda:any(x['header']>>4==3 for x in peer.connections[0]))
+        os.write(master,frame());wait_for(lambda:peer.connections and any(x['header']>>4==3 for x in peer.connections[0]))
         os.write(master,b''.join(frame(seq=i,value_ms=i*1000) for i in range(2,1001)))
         wait_for(lambda:self.status(out)['ack_timeouts']>=1,timeout=8)
         wait_for(lambda:len(peer.connections)>=2,timeout=5)

@@ -83,7 +83,7 @@
     "tests/test_gateway.py": "5f74643230715d39f8c595f87037456bfd403297f168569ca7c8d3721afcbbd2",
     "tests/test_history.c": "463456eab6221bc14ae129df33ddca904d669709005ff008ac810d85f511d400",
     "tests/test_ipc.py": "6ef433d83723497b54070ac8aa5c2db7d514f8764f1883536992f9a64079ecdc",
-    "tests/test_mqtt.py": "031ecc560a03197eb44372d9744ba852b8fc0d48d614cd70fd69a9c7d5c7b731",
+    "tests/test_mqtt.py": "4c8ef731d9824397e4fb42aa2982f2c014b31e32175967bfd81e751ae6e684cd",
     "tests/test_mqtt_capacity.c": "6667214dde7a41de1a749c5a22552b8deff2ed24a9809420c7e218ffa073ef6c",
     "tests/test_process_audit.py": "33aede72cab80b0434275d804b4e457b725d1841a214ba44a6c86a9eddbaf81f",
     "tests/test_queue.c": "6991e842dc4d4a17ffeaec932d7a020fb5c73807567e281844f9f9343898f2a8",
@@ -100,5 +100,13 @@
     "scripts/windows/check_public_history.py",
     "tests/test_public_security.py"
   ],
-  "note": "Local source identity is a provenance label. Browse the application in this public checkout."
+  "note": "Local source identity is a provenance label. Browse the application in this public checkout.",
+  "public_test_adjustments": [
+    {
+      "path": "tests/test_mqtt.py",
+      "original_sha256": "031ecc560a03197eb44372d9744ba852b8fc0d48d614cd70fd69a9c7d5c7b731",
+      "public_sha256": "4c8ef731d9824397e4fb42aa2982f2c014b31e32175967bfd81e751ae6e684cd",
+      "change": "Wait for the fault peer connection before indexing its packet list; production deadlines and assertions unchanged."
+    }
+  ]
 }

@@ -177,6 +177,20 @@
         "examples/diagnostics.bin"
       ],
       "public_sha256": "24b369292e61bbf62a566262c5d8abc8e016b8b4f699751db62f54863e8f1828"
+    },
+    {
+      "path": "evidence/public-release/initial-result.json",
+      "source_path": "public-review/20261114T142429Z-6ae89df2/result.json",
+      "kind": "original",
+      "original_sha256": "01b70d5758d909981b2c5af10ed68001ec419f7f573baff327ef62cee9925d68",
+      "public_sha256": "01b70d5758d909981b2c5af10ed68001ec419f7f573baff327ef62cee9925d68"
+    },
+    {
+      "path": "evidence/public-release/initial-tsan.json",
+      "source_path": "public-review/20261114T142429Z-6ae89df2/tsan/result.json",
+      "kind": "original",
+      "original_sha256": "8291e2846cd0ff947fe808ab034bf807bdb37fd8ede33647541774ac95bf1b5d",
+      "public_sha256": "8291e2846cd0ff947fe808ab034bf807bdb37fd8ede33647541774ac95bf1b5d"
     }
   ],
   "policy": "original = byte-for-byte; redacted_copy = paths/machine identifiers removed; derived = explicitly identified inputs"

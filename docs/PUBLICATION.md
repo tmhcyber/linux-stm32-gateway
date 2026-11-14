@@ -21,4 +21,4 @@ python3 scripts/windows/check_public_history.py --ref HEAD
 
 Windows辅助脚本面向已有VirtualBox环境；`.local/`保存VM、密钥和SSH配置。新建VM时，`prepare_seed.py`要求加密OpenSSH私钥及私有SHA-512 crypt sudo密码哈希文件；sudo需要密码，SSH仅允许密钥登录，转发绑定127.0.0.1。
 
-首次准备可在本机交互运行 `openssl passwd -6`，将生成值保存到 `.local/keys/ubuntu_sudo.sha512`，然后执行 `New-UbuntuVm.ps1`。已有私钥可通过 `ssh-keygen -p`设置口令，SSH agent可缓存本机会话口令。既有开发VM的运行配置由本地环境管理。
+首次准备可在本机交互运行 `openssl passwd -6`，将生成值保存到 `.local/keys/ubuntu_sudo.sha512`；运行 `python scripts/windows/prepare_seed.py`生成seed后，再执行 `New-UbuntuVm.ps1`。准备工具需要Python包pycdlib与已校验的Ubuntu cloud image。已有私钥可通过 `ssh-keygen -p`设置口令，SSH agent可缓存本机会话口令。既有开发VM的运行配置由本地环境管理。

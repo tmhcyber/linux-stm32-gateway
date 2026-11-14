@@ -1,0 +1,3022 @@
+{
+  "passed": false,
+  "source_snapshot": "20261114T142429Z-6ae89df2",
+  "evaluator_snapshot": "20261114T142429Z-6ae89df2",
+  "launch_prefix": [
+    "setarch",
+    "x86_64",
+    "-R"
+  ],
+  "environment": {
+    "TSAN_OPTIONS": "halt_on_error=1:exitcode=66",
+    "GATEWAY_TSAN_MODE": "1"
+  },
+  "startup_checks": [
+    {
+      "name": "gateway-startup-00",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-01",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-02",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-03",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-04",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-05",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-06",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-07",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-08",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-09",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-10",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-11",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-12",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-13",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-14",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-15",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-16",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-17",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-18",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-startup-19",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-00",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-01",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-02",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-03",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-04",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-05",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-06",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-07",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-08",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-09",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-10",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-11",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-12",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-13",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-14",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-15",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-16",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-17",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-18",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    },
+    {
+      "name": "gateway-fault-startup-19",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--help"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "kind": "expected_exit",
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+    }
+  ],
+  "queue": {
+    "name": "queue-stress",
+    "command": [
+      "setarch",
+      "x86_64",
+      "-R",
+      "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/test_queue_threads"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "kind": "expected_exit",
+    "stderr": ""
+  },
+  "suite": {
+    "tests_run": 20,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "outcomes": [
+      {
+        "test": "test_basic_sigint_drains_underfull_batch (test_storage.StorageTests.test_basic_sigint_drains_underfull_batch)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_empty_eof_closes_thread_and_database (test_storage.StorageTests.test_empty_eof_closes_thread_and_database)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_monotonic_one_second_commit_visible_before_exit (test_storage.StorageTests.test_monotonic_one_second_commit_visible_before_exit)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_refuse_unowned_database_without_modifying_it (test_storage.StorageTests.test_refuse_unowned_database_without_modifying_it)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_replay_all_fields_batch_drain_and_reopen_append (test_storage.StorageTests.test_replay_all_fields_batch_drain_and_reopen_append)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_stream_boundary_errors_and_tail_keep_stage2_counts (test_storage.StorageTests.test_stream_boundary_errors_and_tail_keep_stage2_counts)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_busy_recovers_without_duplicates_and_resumes_new_frames (test_storage_failures.StorageFailureTests.test_busy_recovers_without_duplicates_and_resumes_new_frames)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_int_and_term_drain_backlog (test_storage_failures.StorageFailureTests.test_int_and_term_drain_backlog)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_migrate_v1_preserves_recent_history (test_storage_failures.StorageFailureTests.test_migrate_v1_preserves_recent_history)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_parse_overlong_and_disconnect_events_round_trip (test_storage_failures.StorageFailureTests.test_parse_overlong_and_disconnect_events_round_trip)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch (test_storage_failures.StorageFailureTests.test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_retention_batched_startup_and_monotonic_periodic_schedule (test_storage_failures.StorageFailureTests.test_retention_batched_startup_and_monotonic_periodic_schedule)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_sigkill_inside_sqlite_transaction_rolls_back (test_storage_failures.StorageFailureTests.test_sigkill_inside_sqlite_transaction_rolls_back)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_sigkill_preserves_commits_and_restart_reads_them (test_storage_failures.StorageFailureTests.test_sigkill_preserves_commits_and_restart_reads_them)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_signal_masks_route_termination_only_to_main (test_storage_failures.StorageFailureTests.test_signal_masks_route_termination_only_to_main)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_signals_without_input_close_worker (test_storage_failures.StorageFailureTests.test_signals_without_input_close_worker)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_silent_and_resumed_events_persist (test_storage_failures.StorageFailureTests.test_silent_and_resumed_events_persist)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_slow_writer_full_queue_continues_receiving (test_storage_failures.StorageFailureTests.test_slow_writer_full_queue_continues_receiving)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_sqlite_full_from_actual_page_limit_recovers (test_storage_failures.StorageFailureTests.test_sqlite_full_from_actual_page_limit_recovers)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_vfs_write_ioerror_recovers (test_storage_failures.StorageFailureTests.test_vfs_write_ioerror_recovers)",
+        "kind": "passed",
+        "subtest": false
+      }
+    ]
+  },
+  "processes": [
+    {
+      "case": "test_storage.StorageTests.test_basic_sigint_drains_underfull_batch",
+      "phase": "exit",
+      "pid": 3024,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "30",
+        "--output",
+        "/tmp/tmp11s20kks/pty",
+        "--db",
+        "/tmp/tmp11s20kks/history.sqlite"
+      ],
+      "exit_code": 130,
+      "expected_exit": 130,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage.StorageTests.test_empty_eof_closes_thread_and_database",
+      "phase": "replay:out",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmpkylc8m2y/out.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/tmp/tmpkylc8m2y/out",
+        "--db",
+        "/tmp/tmpkylc8m2y/history.sqlite"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage.StorageTests.test_monotonic_one_second_commit_visible_before_exit",
+      "phase": "exit",
+      "pid": 3030,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "30",
+        "--output",
+        "/tmp/tmpz6tg70i4/pty",
+        "--db",
+        "/tmp/tmpz6tg70i4/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage.StorageTests.test_refuse_unowned_database_without_modifying_it",
+      "phase": "replay:out",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmpquz__kgo/out.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/tmp/tmpquz__kgo/out",
+        "--db",
+        "/tmp/tmpquz__kgo/history.sqlite"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage.StorageTests.test_replay_all_fields_batch_drain_and_reopen_append",
+      "phase": "replay:out",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmpng59are7/out.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/tmp/tmpng59are7/out",
+        "--db",
+        "/tmp/tmpng59are7/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage.StorageTests.test_replay_all_fields_batch_drain_and_reopen_append",
+      "phase": "replay:second",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmpng59are7/second.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/tmp/tmpng59are7/second",
+        "--db",
+        "/tmp/tmpng59are7/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage.StorageTests.test_stream_boundary_errors_and_tail_keep_stage2_counts",
+      "phase": "replay:out",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmpbhesnn9g/out.bin",
+        "--boundary",
+        "stream",
+        "--output",
+        "/tmp/tmpbhesnn9g/out",
+        "--db",
+        "/tmp/tmpbhesnn9g/history.sqlite"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_busy_recovers_without_duplicates_and_resumes_new_frames",
+      "phase": "exit",
+      "pid": 3045,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_busy_recovers_without_duplicates_and_resumes_new_frames/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_busy_recovers_without_duplicates_and_resumes_new_frames/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_int_and_term_drain_backlog",
+      "phase": "exit",
+      "pid": 3048,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_int_and_term_drain_backlog/2",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_int_and_term_drain_backlog/history.sqlite"
+      ],
+      "exit_code": 130,
+      "expected_exit": 130,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_int_and_term_drain_backlog",
+      "phase": "exit",
+      "pid": 3071,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--port",
+        "/dev/pts/1",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_int_and_term_drain_backlog/15",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_int_and_term_drain_backlog/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_migrate_v1_preserves_recent_history",
+      "phase": "exit",
+      "pid": 3114,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_migrate_v1_preserves_recent_history/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_migrate_v1_preserves_recent_history/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_parse_overlong_and_disconnect_events_round_trip",
+      "phase": "exit",
+      "pid": 3117,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_parse_overlong_and_disconnect_events_round_trip/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_parse_overlong_and_disconnect_events_round_trip/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch",
+      "phase": "exit",
+      "pid": 3120,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch",
+      "phase": "exit",
+      "pid": 3123,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/1",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch/restart",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_retention_batched_startup_and_monotonic_periodic_schedule",
+      "phase": "exit",
+      "pid": 3126,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_retention_batched_startup_and_monotonic_periodic_schedule/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_retention_batched_startup_and_monotonic_periodic_schedule/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_sigkill_inside_sqlite_transaction_rolls_back",
+      "phase": "exit",
+      "pid": 3129,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_sigkill_inside_sqlite_transaction_rolls_back/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_sigkill_inside_sqlite_transaction_rolls_back/history.sqlite"
+      ],
+      "exit_code": -9,
+      "expected_exit": -9,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_sigkill_inside_sqlite_transaction_rolls_back",
+      "phase": "exit",
+      "pid": 3132,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/1",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_sigkill_inside_sqlite_transaction_rolls_back/restart",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_sigkill_inside_sqlite_transaction_rolls_back/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_sigkill_preserves_commits_and_restart_reads_them",
+      "phase": "exit",
+      "pid": 3135,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_sigkill_preserves_commits_and_restart_reads_them/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_sigkill_preserves_commits_and_restart_reads_them/history.sqlite"
+      ],
+      "exit_code": -9,
+      "expected_exit": -9,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_sigkill_preserves_commits_and_restart_reads_them",
+      "phase": "exit",
+      "pid": 3138,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/1",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_sigkill_preserves_commits_and_restart_reads_them/restart",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_sigkill_preserves_commits_and_restart_reads_them/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_signal_masks_route_termination_only_to_main",
+      "phase": "exit",
+      "pid": 3141,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_signal_masks_route_termination_only_to_main/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_signal_masks_route_termination_only_to_main/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_signals_without_input_close_worker",
+      "phase": "exit",
+      "pid": 3144,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_signals_without_input_close_worker/2",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_signals_without_input_close_worker/history.sqlite"
+      ],
+      "exit_code": 130,
+      "expected_exit": 130,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_signals_without_input_close_worker",
+      "phase": "exit",
+      "pid": 3147,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/1",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_signals_without_input_close_worker/15",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_signals_without_input_close_worker/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_silent_and_resumed_events_persist",
+      "phase": "exit",
+      "pid": 3150,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_silent_and_resumed_events_persist/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_silent_and_resumed_events_persist/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_slow_writer_full_queue_continues_receiving",
+      "phase": "exit",
+      "pid": 3153,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_slow_writer_full_queue_continues_receiving/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_slow_writer_full_queue_continues_receiving/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_sqlite_full_from_actual_page_limit_recovers",
+      "phase": "exit",
+      "pid": 3156,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_sqlite_full_from_actual_page_limit_recovers/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_sqlite_full_from_actual_page_limit_recovers/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_storage_failures.StorageFailureTests.test_vfs_write_ioerror_recovers",
+      "phase": "exit",
+      "pid": 3159,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_vfs_write_ioerror_recovers/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/faults/test_vfs_write_ioerror_recovers/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    }
+  ],
+  "mqtt_suite": {
+    "tests_run": 9,
+    "failures": 0,
+    "errors": 1,
+    "skipped": 0,
+    "passed": false,
+    "outcomes": [
+      {
+        "test": "test_ack_timeout_recreates_client_without_old_queue (test_mqtt.MqttTests.test_ack_timeout_recreates_client_without_old_queue)",
+        "kind": "test_error",
+        "subtest": false,
+        "error_type": "IndexError",
+        "message": "list index out of range"
+      },
+      {
+        "test": "test_connack_deadline_and_bounded_exit (test_mqtt.MqttTests.test_connack_deadline_and_bounded_exit)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_content_quality_qos_retained_and_shutdown (test_mqtt.MqttTests.test_content_quality_qos_retained_and_shutdown)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_eof_drain_and_mqtt_cli_validation (test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_idle_silence_network_loop_and_thread_roles (test_mqtt.MqttTests.test_idle_silence_network_loop_and_thread_roles)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_initial_broker_absent_latest_only_and_mailbox_bound (test_mqtt.MqttTests.test_initial_broker_absent_latest_only_and_mailbox_bound)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_killed_private_child_delivers_lwt (test_mqtt.MqttTests.test_killed_private_child_delivers_lwt)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_natural_end_preserves_mqtt_failure_and_storage (test_mqtt.MqttTests.test_natural_end_preserves_mqtt_failure_and_storage)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_saturated_tcp_listener_has_deadline (test_mqtt.MqttTests.test_saturated_tcp_listener_has_deadline)",
+        "kind": "passed",
+        "subtest": false
+      }
+    ]
+  },
+  "mqtt_processes": [
+    {
+      "case": "test_mqtt.MqttTests.test_ack_timeout_recreates_client_without_old_queue",
+      "phase": "exit",
+      "pid": 3164,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_ack_timeout_recreates_client_without_old_queue/run",
+        "--mqtt",
+        "--mqtt-port",
+        "43905"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_connack_deadline_and_bounded_exit",
+      "phase": "exit",
+      "pid": 3168,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_connack_deadline_and_bounded_exit/run",
+        "--mqtt",
+        "--mqtt-port",
+        "35587"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_content_quality_qos_retained_and_shutdown",
+      "phase": "exit",
+      "pid": 3173,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_content_quality_qos_retained_and_shutdown/run",
+        "--mqtt",
+        "--mqtt-port",
+        "51445",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_content_quality_qos_retained_and_shutdown/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+      "phase": "EOF",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+        "--mqtt",
+        "--mqtt-port",
+        "47729",
+        "--gateway-id",
+        "eof-test"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+      "phase": "invalid CLI",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+        "--mqtt-port",
+        "1234"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+      "phase": "invalid CLI",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+        "--gateway-id",
+        "x"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+      "phase": "invalid CLI",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+        "--mqtt",
+        "--device-id",
+        "bad/topic"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+      "phase": "invalid CLI",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+        "--mqtt",
+        "--gateway-id",
+        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+      "phase": "invalid CLI",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+        "--mqtt",
+        "--mqtt-port",
+        "65536"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+      "phase": "invalid CLI",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+        "--mqtt",
+        "--mqtt-host",
+        "example.com"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "stderr": "gateway (--port DEVICE (--duration SECONDS | --continuous) [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--socket PATH] [--journal] [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_idle_silence_network_loop_and_thread_roles",
+      "phase": "exit",
+      "pid": 3192,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_idle_silence_network_loop_and_thread_roles/run",
+        "--mqtt",
+        "--mqtt-port",
+        "51193",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_idle_silence_network_loop_and_thread_roles/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_initial_broker_absent_latest_only_and_mailbox_bound",
+      "phase": "exit",
+      "pid": 3196,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_initial_broker_absent_latest_only_and_mailbox_bound/run",
+        "--mqtt",
+        "--mqtt-port",
+        "39883"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_killed_private_child_delivers_lwt",
+      "phase": "exit",
+      "pid": 3203,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_killed_private_child_delivers_lwt/run",
+        "--mqtt",
+        "--mqtt-port",
+        "54871"
+      ],
+      "exit_code": -9,
+      "expected_exit": -9,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_natural_end_preserves_mqtt_failure_and_storage",
+      "phase": "exit",
+      "pid": 3207,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "2",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_natural_end_preserves_mqtt_failure_and_storage/run",
+        "--mqtt",
+        "--mqtt-port",
+        "38149",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_natural_end_preserves_mqtt_failure_and_storage/history.sqlite"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_mqtt.MqttTests.test_saturated_tcp_listener_has_deadline",
+      "phase": "exit",
+      "pid": 3211,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--duration",
+        "60",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/mqtt/test_saturated_tcp_listener_has_deadline/run",
+        "--mqtt",
+        "--mqtt-port",
+        "43947"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    }
+  ],
+  "ipc_suite": {
+    "tests_run": 11,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "outcomes": [
+      {
+        "test": "test_busy_queries_expire_without_poisoning_storage (test_ipc.IpcTests.test_busy_queries_expire_without_poisoning_storage)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_client_request_timeout (test_ipc.IpcTests.test_client_request_timeout)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_disconnected_query_never_reaches_new_client (test_ipc.IpcTests.test_disconnected_query_never_reaches_new_client)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_empty_db_incomplete_and_idle_timeout (test_ipc.IpcTests.test_empty_db_incomplete_and_idle_timeout)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_history_duplicate_time_cross_run_order_boundaries_and_retired_cursor (test_ipc.IpcTests.test_history_duplicate_time_cross_run_order_boundaries_and_retired_cursor)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_latest_keeps_source_quality_and_receive_age_separate (test_ipc.IpcTests.test_latest_keeps_source_quality_and_receive_age_separate)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_saturated_clients_and_fragment_deadline (test_ipc.IpcTests.test_saturated_clients_and_fragment_deadline)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_segmented_pipeline_half_close_and_bad_requests (test_ipc.IpcTests.test_segmented_pipeline_half_close_and_bad_requests)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_slow_readers_timeouts_pressure_and_write_progress (test_ipc.IpcTests.test_slow_readers_timeouts_pressure_and_write_progress)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_stale_file_active_instance_and_socket_ownership (test_ipc.IpcTests.test_stale_file_active_instance_and_socket_ownership)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_status_latest_no_db_and_cli_codes (test_ipc.IpcTests.test_status_latest_no_db_and_cli_codes)",
+        "kind": "passed",
+        "subtest": false
+      }
+    ]
+  },
+  "ipc_processes": [
+    {
+      "case": "test_ipc.IpcTests.test_busy_queries_expire_without_poisoning_storage",
+      "phase": "seed",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmpot9e4w4l/seed.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/tmp/tmpot9e4w4l/seed0",
+        "--db",
+        "/tmp/tmpot9e4w4l/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_busy_queries_expire_without_poisoning_storage",
+      "phase": "seed",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmpot9e4w4l/seed.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/tmp/tmpot9e4w4l/seed1",
+        "--db",
+        "/tmp/tmpot9e4w4l/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_busy_queries_expire_without_poisoning_storage",
+      "phase": "exit",
+      "pid": 3221,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--output",
+        "/tmp/tmpot9e4w4l/run",
+        "--socket",
+        "/tmp/tmpot9e4w4l/control.sock",
+        "--db",
+        "/tmp/tmpot9e4w4l/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_disconnected_query_never_reaches_new_client",
+      "phase": "seed",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmphtpm90zt/seed.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/tmp/tmphtpm90zt/seed0",
+        "--db",
+        "/tmp/tmphtpm90zt/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_disconnected_query_never_reaches_new_client",
+      "phase": "seed",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmphtpm90zt/seed.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/tmp/tmphtpm90zt/seed1",
+        "--db",
+        "/tmp/tmphtpm90zt/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_disconnected_query_never_reaches_new_client",
+      "phase": "exit",
+      "pid": 3235,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--output",
+        "/tmp/tmphtpm90zt/run",
+        "--socket",
+        "/tmp/tmphtpm90zt/control.sock",
+        "--db",
+        "/tmp/tmphtpm90zt/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_empty_db_incomplete_and_idle_timeout",
+      "phase": "exit",
+      "pid": 3264,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--output",
+        "/tmp/tmp_yax79to/run",
+        "--socket",
+        "/tmp/tmp_yax79to/control.sock",
+        "--db",
+        "/tmp/tmp_yax79to/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_history_duplicate_time_cross_run_order_boundaries_and_retired_cursor",
+      "phase": "seed",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmpegizc_bw/seed.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/tmp/tmpegizc_bw/seed0",
+        "--db",
+        "/tmp/tmpegizc_bw/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_history_duplicate_time_cross_run_order_boundaries_and_retired_cursor",
+      "phase": "seed",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmpegizc_bw/seed.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/tmp/tmpegizc_bw/seed1",
+        "--db",
+        "/tmp/tmpegizc_bw/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_history_duplicate_time_cross_run_order_boundaries_and_retired_cursor",
+      "phase": "exit",
+      "pid": 3294,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--output",
+        "/tmp/tmpegizc_bw/run",
+        "--socket",
+        "/tmp/tmpegizc_bw/control.sock",
+        "--db",
+        "/tmp/tmpegizc_bw/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_latest_keeps_source_quality_and_receive_age_separate",
+      "phase": "exit",
+      "pid": 3353,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--output",
+        "/tmp/tmpdp7xeo9o/run",
+        "--socket",
+        "/tmp/tmpdp7xeo9o/control.sock",
+        "--db",
+        "/tmp/tmpdp7xeo9o/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_saturated_clients_and_fragment_deadline",
+      "phase": "exit",
+      "pid": 3364,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--output",
+        "/tmp/tmpx5_zruc7/run",
+        "--socket",
+        "/tmp/tmpx5_zruc7/control.sock",
+        "--db",
+        "/tmp/tmpx5_zruc7/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_segmented_pipeline_half_close_and_bad_requests",
+      "phase": "exit",
+      "pid": 3369,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--output",
+        "/tmp/tmpajs0nfn4/run",
+        "--socket",
+        "/tmp/tmpajs0nfn4/control.sock",
+        "--db",
+        "/tmp/tmpajs0nfn4/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_slow_readers_timeouts_pressure_and_write_progress",
+      "phase": "seed",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmp3fpgek1b/seed.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/tmp/tmp3fpgek1b/seed0",
+        "--db",
+        "/tmp/tmp3fpgek1b/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_slow_readers_timeouts_pressure_and_write_progress",
+      "phase": "seed",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/tmp/tmp3fpgek1b/seed.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/tmp/tmp3fpgek1b/seed1",
+        "--db",
+        "/tmp/tmp3fpgek1b/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_slow_readers_timeouts_pressure_and_write_progress",
+      "phase": "exit",
+      "pid": 3379,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--output",
+        "/tmp/tmp3fpgek1b/run",
+        "--socket",
+        "/tmp/tmp3fpgek1b/control.sock",
+        "--db",
+        "/tmp/tmp3fpgek1b/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_stale_file_active_instance_and_socket_ownership",
+      "phase": "exit",
+      "pid": 3389,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--output",
+        "/tmp/tmpcpiap1z5/run",
+        "--socket",
+        "/tmp/tmpcpiap1z5/control.sock",
+        "--db",
+        "/tmp/tmpcpiap1z5/history.sqlite"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_status_latest_no_db_and_cli_codes",
+      "phase": "ctl",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/tmplt178icj/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_status_latest_no_db_and_cli_codes",
+      "phase": "ctl",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/tmplt178icj/control.sock",
+        "latest"
+      ],
+      "exit_code": 4,
+      "expected_exit": 4,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_status_latest_no_db_and_cli_codes",
+      "phase": "ctl",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/tmplt178icj/control.sock",
+        "latest"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_ipc.IpcTests.test_status_latest_no_db_and_cli_codes",
+      "phase": "exit",
+      "pid": 3399,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--output",
+        "/tmp/tmplt178icj/run",
+        "--socket",
+        "/tmp/tmplt178icj/control.sock"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    }
+  ],
+  "diagnostic_suite": {
+    "tests_run": 8,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "outcomes": [
+      {
+        "test": "test_actual_c_vectors_pure_and_mixed_repeated_late (test_diagnostic.DiagnosticTests.test_actual_c_vectors_pure_and_mixed_repeated_late)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_ipc_late_diagnostic_only_silence_then_telemetry_recovery (test_diagnostic.DiagnosticTests.test_ipc_late_diagnostic_only_silence_then_telemetry_recovery)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_mqtt_diagnostic_state_and_old_telemetry_isolation (test_diagnostic.DiagnosticTests.test_mqtt_diagnostic_state_and_old_telemetry_isolation)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_queue_full_sql_failure_and_signal_accounting (test_diagnostic.DiagnosticTests.test_queue_full_sql_failure_and_signal_accounting)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_slow_storage_recovers_without_blocking_diagnostic_receive (test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_strict_diagnostic_rejections_and_recovery (test_diagnostic.DiagnosticTests.test_strict_diagnostic_rejections_and_recovery)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_v2_migration_failure_is_atomic (test_diagnostic.DiagnosticTests.test_v2_migration_failure_is_atomic)",
+        "kind": "passed",
+        "subtest": false
+      },
+      {
+        "test": "test_v2_private_copy_migration_and_rejection (test_diagnostic.DiagnosticTests.test_v2_private_copy_migration_and_rejection)",
+        "kind": "passed",
+        "subtest": false
+      }
+    ]
+  },
+  "diagnostic_processes": [
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_actual_c_vectors_pure_and_mixed_repeated_late",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_actual_c_vectors_pure_and_mixed_repeated_late/run.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_actual_c_vectors_pure_and_mixed_repeated_late/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_actual_c_vectors_pure_and_mixed_repeated_late/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_actual_c_vectors_pure_and_mixed_repeated_late",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_actual_c_vectors_pure_and_mixed_repeated_late/mixed.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_actual_c_vectors_pure_and_mixed_repeated_late/mixed",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_actual_c_vectors_pure_and_mixed_repeated_late/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_actual_c_vectors_pure_and_mixed_repeated_late",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_actual_c_vectors_pure_and_mixed_repeated_late/late.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_actual_c_vectors_pure_and_mixed_repeated_late/late",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_actual_c_vectors_pure_and_mixed_repeated_late/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_ipc_late_diagnostic_only_silence_then_telemetry_recovery",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-3f_i096_/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_ipc_late_diagnostic_only_silence_then_telemetry_recovery",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-3f_i096_/control.sock",
+        "latest"
+      ],
+      "exit_code": 4,
+      "expected_exit": 4,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_ipc_late_diagnostic_only_silence_then_telemetry_recovery",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-3f_i096_/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_ipc_late_diagnostic_only_silence_then_telemetry_recovery",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-3f_i096_/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_ipc_late_diagnostic_only_silence_then_telemetry_recovery",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-3f_i096_/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_ipc_late_diagnostic_only_silence_then_telemetry_recovery",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-3f_i096_/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_ipc_late_diagnostic_only_silence_then_telemetry_recovery",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-3f_i096_/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_ipc_late_diagnostic_only_silence_then_telemetry_recovery",
+      "phase": "exit",
+      "pid": 3416,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_ipc_late_diagnostic_only_silence_then_telemetry_recovery/history.sqlite",
+        "--socket",
+        "/tmp/gw-diag-3f_i096_/control.sock",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_ipc_late_diagnostic_only_silence_then_telemetry_recovery/run"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_mqtt_diagnostic_state_and_old_telemetry_isolation",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-jd2yty8c/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_mqtt_diagnostic_state_and_old_telemetry_isolation",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-jd2yty8c/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_mqtt_diagnostic_state_and_old_telemetry_isolation",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-jd2yty8c/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_mqtt_diagnostic_state_and_old_telemetry_isolation",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-jd2yty8c/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_mqtt_diagnostic_state_and_old_telemetry_isolation",
+      "phase": "exit",
+      "pid": 3428,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_mqtt_diagnostic_state_and_old_telemetry_isolation/history.sqlite",
+        "--socket",
+        "/tmp/gw-diag-jd2yty8c/control.sock",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_mqtt_diagnostic_state_and_old_telemetry_isolation/run",
+        "--mqtt",
+        "--mqtt-port",
+        "57975"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_queue_full_sql_failure_and_signal_accounting",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-ybrso3oz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_queue_full_sql_failure_and_signal_accounting",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-ybrso3oz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_queue_full_sql_failure_and_signal_accounting",
+      "phase": "exit",
+      "pid": 3436,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_queue_full_sql_failure_and_signal_accounting/history.sqlite",
+        "--socket",
+        "/tmp/gw-diag-ybrso3oz/control.sock",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_queue_full_sql_failure_and_signal_accounting/run"
+      ],
+      "exit_code": 130,
+      "expected_exit": 130,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gatewayctl",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "status"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_slow_storage_recovers_without_blocking_diagnostic_receive",
+      "phase": "exit",
+      "pid": 3441,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway-fault",
+        "--port",
+        "/dev/pts/0",
+        "--continuous",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_slow_storage_recovers_without_blocking_diagnostic_receive/history.sqlite",
+        "--socket",
+        "/tmp/gw-diag-nvkp9ajz/control.sock",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_slow_storage_recovers_without_blocking_diagnostic_receive/run"
+      ],
+      "exit_code": 143,
+      "expected_exit": 143,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_strict_diagnostic_rejections_and_recovery",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_strict_diagnostic_rejections_and_recovery/run.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_strict_diagnostic_rejections_and_recovery/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_strict_diagnostic_rejections_and_recovery/history.sqlite"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_v2_migration_failure_is_atomic",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_migration_failure_is_atomic/run.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_migration_failure_is_atomic/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_migration_failure_is_atomic/history.sqlite"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_v2_private_copy_migration_and_rejection",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_private_copy_migration_and_rejection/run.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_private_copy_migration_and_rejection/run",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_private_copy_migration_and_rejection/history.sqlite"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_v2_private_copy_migration_and_rejection",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_private_copy_migration_and_rejection/reject0.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_private_copy_migration_and_rejection/reject0",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_private_copy_migration_and_rejection/history.sqlite"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_v2_private_copy_migration_and_rejection",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_private_copy_migration_and_rejection/reject1.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_private_copy_migration_and_rejection/reject1",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_private_copy_migration_and_rejection/history.sqlite"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "stderr": "",
+      "kind": "expected_exit"
+    },
+    {
+      "case": "test_diagnostic.DiagnosticTests.test_v2_private_copy_migration_and_rejection",
+      "phase": "command",
+      "pid": null,
+      "command": [
+        "/home/ubuntu/project/build/20261114T142429Z-6ae89df2/tsan/gateway",
+        "--replay",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_private_copy_migration_and_rejection/reject2.bin",
+        "--boundary",
+        "aligned",
+        "--output",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_private_copy_migration_and_rejection/reject2",
+        "--db",
+        "/home/ubuntu/project/public-release-review-20261114T142424Z/validation/tsan/diagnostic-cases/test_v2_private_copy_migration_and_rejection/history.sqlite"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "stderr": "",
+      "kind": "expected_exit"
+    }
+  ],
+  "global_policy": {
+    "mmap_rnd_bits_before": "32",
+    "mmap_rnd_bits_after": "32",
+    "randomize_va_space": "2",
+    "unchanged": true
+  },
+  "binaries": {
+    "gateway": "99e7ac7a364863d5d7ff49a400c3b89edc5eb10060afd66bacbf4017be3d083c",
+    "gateway-fault": "c11bd6798bde3b5be71665faa2f3ed18e13d5b5fae133b4ecb07c1183577ef82",
+    "test_queue_threads": "5d72a55974f70280599d8cca39333927aad18846a6fb75e3543fcc884055603e"
+  }
+}
