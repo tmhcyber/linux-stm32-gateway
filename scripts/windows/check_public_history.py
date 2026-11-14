@@ -12,7 +12,8 @@ def inspect_blob(path, data):
     problems = []
     parts = Path(path).parts
     if any(part in {'.local', '.ssh', '.private'} for part in parts) or path.endswith(
-            ('.pem', '.key', '.iso', '.vdi', '.vmdk', '.dmp', '.bundle')):
+            ('.pem', '.key', '.iso', '.vdi', '.vmdk', '.dmp', '.bundle',
+             '.sqlite', '.sqlite-wal', '.sqlite-shm', '.db', '.db-wal', '.db-shm', '.axf')):
         problems.append('private artifact path')
     for name, expression in {
         'private key': rb'-----BEGIN (?:[A-Z0-9]+ )?PRIVATE KEY-----',

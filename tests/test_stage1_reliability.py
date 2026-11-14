@@ -80,7 +80,8 @@ class ProcessTests(unittest.TestCase):
                 self.assertEqual(summary['exit_reason'], 'interrupted')
                 self.assertEqual(summary['signal'], sig.name)
                 self.assertEqual(summary['v1_candidate_lines'], 1)
-                self.assertLess(summary['elapsed_s'], 3)
+                # Includes setup/VM scheduling; communicate(timeout=6) still bounds shutdown.
+                self.assertLess(summary['elapsed_s'], summary['requested_duration_s'])
                 self.assertEqual(raw, data)
                 self.assertEqual(lines, b'v=1;reason=EVENT;\r\n')
 

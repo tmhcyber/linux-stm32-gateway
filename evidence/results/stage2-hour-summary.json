@@ -1,0 +1,6 @@
+{
+"schema":1,"mode":"serial","started_utc":"2026-11-11T12:50:51Z","ended_utc":"2026-11-11T13:50:51Z","elapsed_s":3600.008328,"requested_duration_s":3600.000,"complete":true,"exit_code":0,"signal":0,"discard_buffered":false,"io_error":false,"silent":false,"silent_count":0,
+"bytes":1375324,"frames":3599,"valid_records":3599,"overlong":0,"sync_discards":1,"resyncs":0,"discarded_bytes":300,"abandoned_bytes":0,"pending_bytes":206,"dropping":false,
+"open_errors":0,"link_errors":0,"opens":1,"sequence":{"repeat":0,"next":3598,"jump":0,"wrap":0,"backward":0,"millis_wrap_candidates":0},
+"parse_errors":{"NON_ASCII":0,"SYNTAX":0,"DUPLICATE_FIELD":0,"UNKNOWN_FIELD":0,"MISSING_FIELD":0,"INTEGER_FORMAT":0,"VALUE_RANGE":0,"ENUM":0,"VERSION":0,"IDENTITY":0,"HEADER":0,"QUALITY":0,"BATCH":0}
+}

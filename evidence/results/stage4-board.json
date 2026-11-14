@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "scope": "real STM32 -> CH340 COM11 -> VirtualBox UART2 -> ttyS1 -> gateway -> private loopback broker",
+  "valid_records": 59,
+  "mqtt_messages": 59,
+  "committed": 59,
+  "database_check": "raw/fields/points/events/counters/integrity/foreign keys passed",
+  "mqtt": {
+    "received": 59,
+    "connected": false,
+    "stopped": true,
+    "connects": 1,
+    "connacks": 1,
+    "failures": 0,
+    "recoveries": 0,
+    "ack_timeouts": 0,
+    "connect_timeouts": 0,
+    "pending": 0,
+    "in_flight": 0,
+    "high_water": 2,
+    "last_error": 0,
+    "format_errors": 0,
+    "diagnostic_io_error": false,
+    "offline_acked": true,
+    "topics": [
+      {
+        "overwritten": 0,
+        "attempts": 59,
+        "pubacks": 59
+      },
+      {
+        "overwritten": 0,
+        "attempts": 15,
+        "pubacks": 15
+      },
+      {
+        "overwritten": 0,
+        "attempts": 2,
+        "pubacks": 2
+      }
+    ]
+  },
+  "exit_code": 0,
+  "source_snapshot": "20261112T062219Z-acb3629d"
+}

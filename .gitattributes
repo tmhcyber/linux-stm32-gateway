@@ -1,2 +1,10 @@
 * text=auto eol=lf
 *.bin binary
+# Preserve tested application and MCU reference inputs across checkouts.
+src/** -text whitespace=cr-at-eol
+include/** -text whitespace=cr-at-eol
+tests/** -text whitespace=cr-at-eol,-blank-at-eof
+scripts/** -text whitespace=cr-at-eol
+config/** -text whitespace=cr-at-eol
+fixtures/** -text whitespace=cr-at-eol
+evidence/results/** -text whitespace=cr-at-eol

@@ -12,7 +12,7 @@ import uuid
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE_DIRS = {'scripts', 'tests', 'docs', 'src', 'include', 'config'}
-SUFFIXES = {'.py', '.sh', '.ps1', '.md', '.c', '.h', '.toml', '.yaml', '.yml'}
+SUFFIXES = {'.py', '.sh', '.ps1', '.md', '.c', '.h', '.gdb', '.toml', '.yaml', '.yml', '.service'}
 ROOT_FILES = {'README.md', '.gitattributes', '.gitignore', 'Makefile', 'CMakeLists.txt'}
 EXCLUDED = {'.local', '.git', 'evidence', 'build', '__pycache__'}
 

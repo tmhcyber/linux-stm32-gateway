@@ -1,0 +1,2 @@
+/* Actual MCU formatter vector; generated, do not hand edit. */
+static const unsigned char diagnostic_test_vector[] = "d=1;up_ms=4294967294;reset_captured=1;reset_raw=0xFFFFFFFF;reset_reasons=0x0000007F;fault_status=1;fault_type=4;frame_valid=1;frame_reject=0x00000000;pc=0xFFFFFFFF;cfsr=0xFFFFFFFF;hfsr=0xFFFFFFFF;monitor_valid=1;health=3;active=0x000000FF;observed=0x000000FF;watchdog_initialized=1;watchdog=3;latched=0x00070090;\r\n";

@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "scope": "software integration: private PTY and broker, not real board",
+  "outage_seconds": 600.0860372469997,
+  "received": 601,
+  "committed": 601,
+  "first_recovery_rx_id": 598,
+  "mqtt": {
+    "received": 601,
+    "connected": false,
+    "stopped": true,
+    "connects": 25,
+    "connacks": 2,
+    "failures": 24,
+    "recoveries": 1,
+    "ack_timeouts": 0,
+    "connect_timeouts": 0,
+    "pending": 0,
+    "in_flight": 0,
+    "high_water": 3,
+    "last_error": 14,
+    "format_errors": 0,
+    "diagnostic_io_error": false,
+    "offline_acked": true,
+    "topics": [
+      {
+        "overwritten": 597,
+        "attempts": 5,
+        "pubacks": 5
+      },
+      {
+        "overwritten": 120,
+        "attempts": 4,
+        "pubacks": 4
+      },
+      {
+        "overwritten": 1,
+        "attempts": 3,
+        "pubacks": 3
+      }
+    ]
+  },
+  "rss_min_kib": 5860,
+  "rss_max_kib": 6344,
+  "observations": 61,
+  "process": {
+    "case": "ten_minute_outage",
+    "phase": "exit",
+    "pid": 15126,
+    "command": [
+      "/home/ubuntu/project/build/20261112T062219Z-acb3629d/gateway",
+      "--port",
+      "/dev/pts/2",
+      "--duration",
+      "700",
+      "--output",
+      "/home/ubuntu/project/evidence/stage4-outage-03/run",
+      "--db",
+      "/home/ubuntu/project/evidence/stage4-outage-03/history.sqlite",
+      "--mqtt",
+      "--mqtt-port",
+      "44979",
+      "--gateway-id",
+      "outage-01"
+    ],
+    "exit_code": 143,
+    "expected_exit": 143,
+    "stderr": "",
+    "kind": "expected_exit"
+  },
+  "database_check": "raw/records/points/events/counters/integrity/foreign keys passed"
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "steady_rate_passed": true,
+  "storage_checks_passed": true,
+  "acceptance_name": "ab-with-db-60s",
+  "accepted_frames": 59,
+  "live_elapsed_s": 60.029411,
+  "settling_exit_code": 1,
+  "acceptance_exit_code": 0,
+  "asan_replay_exit_code": 0,
+  "checked_database_runs": 5,
+  "source_snapshot": "20261112T001725Z-ae20f6d1",
+  "source_manifest_sha256": "5c1762d79f85817d1c0068cb7492f4c619801596ccc9292728f7a32083660fe1"
+}

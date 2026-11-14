@@ -1,0 +1,35 @@
+[Unit]
+Description=STM32 local acquisition and diagnostics gateway
+Wants=mosquitto.service
+After=mosquitto.service
+StartLimitIntervalSec=120
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=stm32gw
+Group=stm32gw
+SupplementaryGroups=dialout
+ExecStart=/usr/bin/python3 @RELEASE@/source/scripts/linux/service_launch.py --release @RELEASE@ --config /etc/stm32-gateway.toml
+StateDirectory=stm32-gateway
+StateDirectoryMode=0750
+RuntimeDirectory=stm32-gateway
+RuntimeDirectoryMode=0700
+UMask=0077
+Restart=on-failure
+RestartSec=5
+SuccessExitStatus=130 143
+TimeoutStopSec=30
+KillSignal=SIGTERM
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+CapabilityBoundingSet=
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=stm32-gateway
+
+[Install]
+WantedBy=multi-user.target

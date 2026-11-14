@@ -1,0 +1,18 @@
+{
+  "records": 3599,
+  "all_normalized_records_equal": true,
+  "sanitizer_exit_code": 0,
+  "stderr": "",
+  "runtime_sources_equal": {
+    "Makefile": true,
+    "include/framer.h": true,
+    "include/output.h": true,
+    "include/protocol.h": true,
+    "include/serial.h": true,
+    "src/framer.c": true,
+    "src/main.c": true,
+    "src/output.c": true,
+    "src/protocol.c": true,
+    "src/serial.c": true
+  }
+}

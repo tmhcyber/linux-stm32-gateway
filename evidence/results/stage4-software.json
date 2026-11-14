@@ -1,0 +1,2278 @@
+{
+  "passed": true,
+  "suites": {
+    "normal": {
+      "tests_run": 64,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true,
+      "outcomes": [
+        {
+          "test": "test_empty_partial_and_no_overwrite (test_gateway.GatewayTests.test_empty_partial_and_no_overwrite)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_firmware_states_and_last_value_semantics (test_gateway.GatewayTests.test_firmware_states_and_last_value_semantics)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_hup_and_open_failure_summary_retry (test_gateway.GatewayTests.test_hup_and_open_failure_summary_retry)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_integer_and_semantic_edges (test_gateway.GatewayTests.test_integer_and_semantic_edges)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_invalid_data_does_not_refresh_silent_deadline (test_gateway.GatewayTests.test_invalid_data_does_not_refresh_silent_deadline)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_pty_byte_segmentation_multi_frame_and_settings (test_gateway.GatewayTests.test_pty_byte_segmentation_multi_frame_and_settings)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_pty_reconnect_resync_and_restore (test_gateway.GatewayTests.test_pty_reconnect_resync_and_restore)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_signal_preserves_partial_window (test_gateway.GatewayTests.test_signal_preserves_partial_window)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_silent_recovers_only_on_legal_telemetry (test_gateway.GatewayTests.test_silent_recovers_only_on_legal_telemetry)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_strict_rejections_recover (test_gateway.GatewayTests.test_strict_rejections_recover)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_sync_overlong_raw_and_sequence (test_gateway.GatewayTests.test_sync_overlong_raw_and_sequence)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_ack_timeout_recreates_client_without_old_queue (test_mqtt.MqttTests.test_ack_timeout_recreates_client_without_old_queue)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_connack_deadline_and_bounded_exit (test_mqtt.MqttTests.test_connack_deadline_and_bounded_exit)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_content_quality_qos_retained_and_shutdown (test_mqtt.MqttTests.test_content_quality_qos_retained_and_shutdown)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_eof_drain_and_mqtt_cli_validation (test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_idle_silence_network_loop_and_thread_roles (test_mqtt.MqttTests.test_idle_silence_network_loop_and_thread_roles)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_initial_broker_absent_latest_only_and_mailbox_bound (test_mqtt.MqttTests.test_initial_broker_absent_latest_only_and_mailbox_bound)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_killed_private_child_delivers_lwt (test_mqtt.MqttTests.test_killed_private_child_delivers_lwt)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_natural_end_preserves_mqtt_failure_and_storage (test_mqtt.MqttTests.test_natural_end_preserves_mqtt_failure_and_storage)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_saturated_tcp_listener_has_deadline (test_mqtt.MqttTests.test_saturated_tcp_listener_has_deadline)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_expected_usage_signal_and_crash_codes_are_context_specific (test_process_audit.ProcessAuditTests.test_expected_usage_signal_and_crash_codes_are_context_specific)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_mapping_and_independent_assertion_remain_separate_failures (test_process_audit.ProcessAuditTests.test_mapping_and_independent_assertion_remain_separate_failures)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_mapping_requires_matching_exit_and_exact_runtime_diagnostic (test_process_audit.ProcessAuditTests.test_mapping_requires_matching_exit_and_exact_runtime_diagnostic)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_skips_do_not_count_as_full_pass (test_process_audit.ProcessAuditTests.test_skips_do_not_count_as_full_pass)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_tsan_report_is_never_hidden_by_mapping_text_or_expected_exit (test_process_audit.ProcessAuditTests.test_tsan_report_is_never_hidden_by_mapping_text_or_expected_exit)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_unknown_exit_is_not_inferred_to_be_mapping (test_process_audit.ProcessAuditTests.test_unknown_exit_is_not_inferred_to_be_mapping)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_capture_from_pty_saves_original_bytes (test_serial_capture.FramingTests.test_capture_from_pty_saves_original_bytes)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_exact_boundary_then_overlong_resynchronization (test_serial_capture.FramingTests.test_exact_boundary_then_overlong_resynchronization)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_multiple_lines_in_one_read (test_serial_capture.FramingTests.test_multiple_lines_in_one_read)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_startup_partial_discard_and_split_delimiter (test_serial_capture.FramingTests.test_startup_partial_discard_and_split_delimiter)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_unterminated_input_has_bounded_buffer (test_serial_capture.FramingTests.test_unterminated_input_has_bounded_buffer)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_reject_hash_mismatch_before_writing (test_source_sync.SyncTests.test_reject_hash_mismatch_before_writing)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_reject_paths_into_history_or_outside_snapshot (test_source_sync.SyncTests.test_reject_paths_into_history_or_outside_snapshot)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_verified_snapshot_preserves_history_and_records_build_origin (test_source_sync.SyncTests.test_verified_snapshot_preserves_history_and_records_build_origin)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_explicit_scope_required (test_stage1_reliability.EnvironmentTests.test_explicit_scope_required)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_mqtt_failures (test_stage1_reliability.EnvironmentTests.test_mqtt_failures)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_serial_requirements (test_stage1_reliability.EnvironmentTests.test_serial_requirements)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_storage_dependency_failure (test_stage1_reliability.EnvironmentTests.test_storage_dependency_failure)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_daily_configuration_needs_no_sudo_and_sets_8n1 (test_stage1_reliability.ProcessTests.test_daily_configuration_needs_no_sudo_and_sets_8n1)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_interrupts_preserve_partial_records_and_exit_code (test_stage1_reliability.ProcessTests.test_interrupts_preserve_partial_records_and_exit_code)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_no_input_returns_two (test_stage1_reliability.ProcessTests.test_no_input_returns_two)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_open_failure_returns_one_with_artifacts (test_stage1_reliability.ProcessTests.test_open_failure_returns_one_with_artifacts)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_pty_link_end_returns_one (test_stage1_reliability.ProcessTests.test_pty_link_end_returns_one)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_simultaneous_pollin_hup_drains_tail (test_stage1_reliability.ProcessTests.test_simultaneous_pollin_hup_drains_tail)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_basic_sigint_drains_underfull_batch (test_storage.StorageTests.test_basic_sigint_drains_underfull_batch)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_empty_eof_closes_thread_and_database (test_storage.StorageTests.test_empty_eof_closes_thread_and_database)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_monotonic_one_second_commit_visible_before_exit (test_storage.StorageTests.test_monotonic_one_second_commit_visible_before_exit)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_refuse_unowned_database_without_modifying_it (test_storage.StorageTests.test_refuse_unowned_database_without_modifying_it)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_replay_all_fields_batch_drain_and_reopen_append (test_storage.StorageTests.test_replay_all_fields_batch_drain_and_reopen_append)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_stream_boundary_errors_and_tail_keep_stage2_counts (test_storage.StorageTests.test_stream_boundary_errors_and_tail_keep_stage2_counts)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_busy_recovers_without_duplicates_and_resumes_new_frames (test_storage_failures.StorageFailureTests.test_busy_recovers_without_duplicates_and_resumes_new_frames)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_int_and_term_drain_backlog (test_storage_failures.StorageFailureTests.test_int_and_term_drain_backlog)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_migrate_v1_preserves_recent_history (test_storage_failures.StorageFailureTests.test_migrate_v1_preserves_recent_history)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_parse_overlong_and_disconnect_events_round_trip (test_storage_failures.StorageFailureTests.test_parse_overlong_and_disconnect_events_round_trip)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch (test_storage_failures.StorageFailureTests.test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_retention_batched_startup_and_monotonic_periodic_schedule (test_storage_failures.StorageFailureTests.test_retention_batched_startup_and_monotonic_periodic_schedule)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_sigkill_inside_sqlite_transaction_rolls_back (test_storage_failures.StorageFailureTests.test_sigkill_inside_sqlite_transaction_rolls_back)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_sigkill_preserves_commits_and_restart_reads_them (test_storage_failures.StorageFailureTests.test_sigkill_preserves_commits_and_restart_reads_them)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_signal_masks_route_termination_only_to_main (test_storage_failures.StorageFailureTests.test_signal_masks_route_termination_only_to_main)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_signals_without_input_close_worker (test_storage_failures.StorageFailureTests.test_signals_without_input_close_worker)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_silent_and_resumed_events_persist (test_storage_failures.StorageFailureTests.test_silent_and_resumed_events_persist)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_slow_writer_full_queue_continues_receiving (test_storage_failures.StorageFailureTests.test_slow_writer_full_queue_continues_receiving)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_sqlite_full_from_actual_page_limit_recovers (test_storage_failures.StorageFailureTests.test_sqlite_full_from_actual_page_limit_recovers)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_vfs_write_ioerror_recovers (test_storage_failures.StorageFailureTests.test_vfs_write_ioerror_recovers)",
+          "kind": "passed",
+          "subtest": false
+        }
+      ]
+    },
+    "asan": {
+      "tests_run": 64,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true,
+      "outcomes": [
+        {
+          "test": "test_empty_partial_and_no_overwrite (test_gateway.GatewayTests.test_empty_partial_and_no_overwrite)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_firmware_states_and_last_value_semantics (test_gateway.GatewayTests.test_firmware_states_and_last_value_semantics)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_hup_and_open_failure_summary_retry (test_gateway.GatewayTests.test_hup_and_open_failure_summary_retry)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_integer_and_semantic_edges (test_gateway.GatewayTests.test_integer_and_semantic_edges)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_invalid_data_does_not_refresh_silent_deadline (test_gateway.GatewayTests.test_invalid_data_does_not_refresh_silent_deadline)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_pty_byte_segmentation_multi_frame_and_settings (test_gateway.GatewayTests.test_pty_byte_segmentation_multi_frame_and_settings)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_pty_reconnect_resync_and_restore (test_gateway.GatewayTests.test_pty_reconnect_resync_and_restore)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_signal_preserves_partial_window (test_gateway.GatewayTests.test_signal_preserves_partial_window)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_silent_recovers_only_on_legal_telemetry (test_gateway.GatewayTests.test_silent_recovers_only_on_legal_telemetry)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_strict_rejections_recover (test_gateway.GatewayTests.test_strict_rejections_recover)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_sync_overlong_raw_and_sequence (test_gateway.GatewayTests.test_sync_overlong_raw_and_sequence)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_ack_timeout_recreates_client_without_old_queue (test_mqtt.MqttTests.test_ack_timeout_recreates_client_without_old_queue)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_connack_deadline_and_bounded_exit (test_mqtt.MqttTests.test_connack_deadline_and_bounded_exit)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_content_quality_qos_retained_and_shutdown (test_mqtt.MqttTests.test_content_quality_qos_retained_and_shutdown)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_eof_drain_and_mqtt_cli_validation (test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_idle_silence_network_loop_and_thread_roles (test_mqtt.MqttTests.test_idle_silence_network_loop_and_thread_roles)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_initial_broker_absent_latest_only_and_mailbox_bound (test_mqtt.MqttTests.test_initial_broker_absent_latest_only_and_mailbox_bound)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_killed_private_child_delivers_lwt (test_mqtt.MqttTests.test_killed_private_child_delivers_lwt)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_natural_end_preserves_mqtt_failure_and_storage (test_mqtt.MqttTests.test_natural_end_preserves_mqtt_failure_and_storage)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_saturated_tcp_listener_has_deadline (test_mqtt.MqttTests.test_saturated_tcp_listener_has_deadline)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_expected_usage_signal_and_crash_codes_are_context_specific (test_process_audit.ProcessAuditTests.test_expected_usage_signal_and_crash_codes_are_context_specific)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_mapping_and_independent_assertion_remain_separate_failures (test_process_audit.ProcessAuditTests.test_mapping_and_independent_assertion_remain_separate_failures)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_mapping_requires_matching_exit_and_exact_runtime_diagnostic (test_process_audit.ProcessAuditTests.test_mapping_requires_matching_exit_and_exact_runtime_diagnostic)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_skips_do_not_count_as_full_pass (test_process_audit.ProcessAuditTests.test_skips_do_not_count_as_full_pass)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_tsan_report_is_never_hidden_by_mapping_text_or_expected_exit (test_process_audit.ProcessAuditTests.test_tsan_report_is_never_hidden_by_mapping_text_or_expected_exit)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_unknown_exit_is_not_inferred_to_be_mapping (test_process_audit.ProcessAuditTests.test_unknown_exit_is_not_inferred_to_be_mapping)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_capture_from_pty_saves_original_bytes (test_serial_capture.FramingTests.test_capture_from_pty_saves_original_bytes)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_exact_boundary_then_overlong_resynchronization (test_serial_capture.FramingTests.test_exact_boundary_then_overlong_resynchronization)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_multiple_lines_in_one_read (test_serial_capture.FramingTests.test_multiple_lines_in_one_read)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_startup_partial_discard_and_split_delimiter (test_serial_capture.FramingTests.test_startup_partial_discard_and_split_delimiter)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_unterminated_input_has_bounded_buffer (test_serial_capture.FramingTests.test_unterminated_input_has_bounded_buffer)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_reject_hash_mismatch_before_writing (test_source_sync.SyncTests.test_reject_hash_mismatch_before_writing)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_reject_paths_into_history_or_outside_snapshot (test_source_sync.SyncTests.test_reject_paths_into_history_or_outside_snapshot)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_verified_snapshot_preserves_history_and_records_build_origin (test_source_sync.SyncTests.test_verified_snapshot_preserves_history_and_records_build_origin)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_explicit_scope_required (test_stage1_reliability.EnvironmentTests.test_explicit_scope_required)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_mqtt_failures (test_stage1_reliability.EnvironmentTests.test_mqtt_failures)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_serial_requirements (test_stage1_reliability.EnvironmentTests.test_serial_requirements)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_storage_dependency_failure (test_stage1_reliability.EnvironmentTests.test_storage_dependency_failure)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_daily_configuration_needs_no_sudo_and_sets_8n1 (test_stage1_reliability.ProcessTests.test_daily_configuration_needs_no_sudo_and_sets_8n1)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_interrupts_preserve_partial_records_and_exit_code (test_stage1_reliability.ProcessTests.test_interrupts_preserve_partial_records_and_exit_code)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_no_input_returns_two (test_stage1_reliability.ProcessTests.test_no_input_returns_two)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_open_failure_returns_one_with_artifacts (test_stage1_reliability.ProcessTests.test_open_failure_returns_one_with_artifacts)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_pty_link_end_returns_one (test_stage1_reliability.ProcessTests.test_pty_link_end_returns_one)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_simultaneous_pollin_hup_drains_tail (test_stage1_reliability.ProcessTests.test_simultaneous_pollin_hup_drains_tail)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_basic_sigint_drains_underfull_batch (test_storage.StorageTests.test_basic_sigint_drains_underfull_batch)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_empty_eof_closes_thread_and_database (test_storage.StorageTests.test_empty_eof_closes_thread_and_database)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_monotonic_one_second_commit_visible_before_exit (test_storage.StorageTests.test_monotonic_one_second_commit_visible_before_exit)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_refuse_unowned_database_without_modifying_it (test_storage.StorageTests.test_refuse_unowned_database_without_modifying_it)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_replay_all_fields_batch_drain_and_reopen_append (test_storage.StorageTests.test_replay_all_fields_batch_drain_and_reopen_append)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_stream_boundary_errors_and_tail_keep_stage2_counts (test_storage.StorageTests.test_stream_boundary_errors_and_tail_keep_stage2_counts)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_busy_recovers_without_duplicates_and_resumes_new_frames (test_storage_failures.StorageFailureTests.test_busy_recovers_without_duplicates_and_resumes_new_frames)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_int_and_term_drain_backlog (test_storage_failures.StorageFailureTests.test_int_and_term_drain_backlog)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_migrate_v1_preserves_recent_history (test_storage_failures.StorageFailureTests.test_migrate_v1_preserves_recent_history)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_parse_overlong_and_disconnect_events_round_trip (test_storage_failures.StorageFailureTests.test_parse_overlong_and_disconnect_events_round_trip)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch (test_storage_failures.StorageFailureTests.test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_retention_batched_startup_and_monotonic_periodic_schedule (test_storage_failures.StorageFailureTests.test_retention_batched_startup_and_monotonic_periodic_schedule)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_sigkill_inside_sqlite_transaction_rolls_back (test_storage_failures.StorageFailureTests.test_sigkill_inside_sqlite_transaction_rolls_back)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_sigkill_preserves_commits_and_restart_reads_them (test_storage_failures.StorageFailureTests.test_sigkill_preserves_commits_and_restart_reads_them)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_signal_masks_route_termination_only_to_main (test_storage_failures.StorageFailureTests.test_signal_masks_route_termination_only_to_main)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_signals_without_input_close_worker (test_storage_failures.StorageFailureTests.test_signals_without_input_close_worker)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_silent_and_resumed_events_persist (test_storage_failures.StorageFailureTests.test_silent_and_resumed_events_persist)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_slow_writer_full_queue_continues_receiving (test_storage_failures.StorageFailureTests.test_slow_writer_full_queue_continues_receiving)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_sqlite_full_from_actual_page_limit_recovers (test_storage_failures.StorageFailureTests.test_sqlite_full_from_actual_page_limit_recovers)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_vfs_write_ioerror_recovers (test_storage_failures.StorageFailureTests.test_vfs_write_ioerror_recovers)",
+          "kind": "passed",
+          "subtest": false
+        }
+      ]
+    }
+  },
+  "tsan": {
+    "passed": true,
+    "source_snapshot": "20261112T062219Z-acb3629d",
+    "evaluator_snapshot": "20261112T062219Z-acb3629d",
+    "launch_prefix": [
+      "setarch",
+      "x86_64",
+      "-R"
+    ],
+    "environment": {
+      "TSAN_OPTIONS": "halt_on_error=1:exitcode=66",
+      "GATEWAY_TSAN_MODE": "1"
+    },
+    "startup_checks": [
+      {
+        "name": "gateway-startup-00",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-01",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-02",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-03",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-04",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-05",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-06",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-07",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-08",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-09",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-10",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-11",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-12",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-13",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-14",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-15",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-16",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-17",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-18",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-startup-19",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-00",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-01",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-02",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-03",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-04",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-05",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-06",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-07",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-08",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-09",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-10",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-11",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-12",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-13",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-14",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-15",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-16",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-17",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-18",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      },
+      {
+        "name": "gateway-fault-startup-19",
+        "command": [
+          "setarch",
+          "x86_64",
+          "-R",
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--help"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "kind": "expected_exit",
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n"
+      }
+    ],
+    "queue": {
+      "name": "queue-stress",
+      "command": [
+        "setarch",
+        "x86_64",
+        "-R",
+        "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/test_queue_threads"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "kind": "expected_exit",
+      "stderr": ""
+    },
+    "suite": {
+      "tests_run": 20,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true,
+      "outcomes": [
+        {
+          "test": "test_basic_sigint_drains_underfull_batch (test_storage.StorageTests.test_basic_sigint_drains_underfull_batch)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_empty_eof_closes_thread_and_database (test_storage.StorageTests.test_empty_eof_closes_thread_and_database)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_monotonic_one_second_commit_visible_before_exit (test_storage.StorageTests.test_monotonic_one_second_commit_visible_before_exit)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_refuse_unowned_database_without_modifying_it (test_storage.StorageTests.test_refuse_unowned_database_without_modifying_it)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_replay_all_fields_batch_drain_and_reopen_append (test_storage.StorageTests.test_replay_all_fields_batch_drain_and_reopen_append)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_stream_boundary_errors_and_tail_keep_stage2_counts (test_storage.StorageTests.test_stream_boundary_errors_and_tail_keep_stage2_counts)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_busy_recovers_without_duplicates_and_resumes_new_frames (test_storage_failures.StorageFailureTests.test_busy_recovers_without_duplicates_and_resumes_new_frames)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_int_and_term_drain_backlog (test_storage_failures.StorageFailureTests.test_int_and_term_drain_backlog)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_migrate_v1_preserves_recent_history (test_storage_failures.StorageFailureTests.test_migrate_v1_preserves_recent_history)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_parse_overlong_and_disconnect_events_round_trip (test_storage_failures.StorageFailureTests.test_parse_overlong_and_disconnect_events_round_trip)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch (test_storage_failures.StorageFailureTests.test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_retention_batched_startup_and_monotonic_periodic_schedule (test_storage_failures.StorageFailureTests.test_retention_batched_startup_and_monotonic_periodic_schedule)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_sigkill_inside_sqlite_transaction_rolls_back (test_storage_failures.StorageFailureTests.test_sigkill_inside_sqlite_transaction_rolls_back)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_sigkill_preserves_commits_and_restart_reads_them (test_storage_failures.StorageFailureTests.test_sigkill_preserves_commits_and_restart_reads_them)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_signal_masks_route_termination_only_to_main (test_storage_failures.StorageFailureTests.test_signal_masks_route_termination_only_to_main)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_signals_without_input_close_worker (test_storage_failures.StorageFailureTests.test_signals_without_input_close_worker)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_silent_and_resumed_events_persist (test_storage_failures.StorageFailureTests.test_silent_and_resumed_events_persist)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_slow_writer_full_queue_continues_receiving (test_storage_failures.StorageFailureTests.test_slow_writer_full_queue_continues_receiving)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_sqlite_full_from_actual_page_limit_recovers (test_storage_failures.StorageFailureTests.test_sqlite_full_from_actual_page_limit_recovers)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_vfs_write_ioerror_recovers (test_storage_failures.StorageFailureTests.test_vfs_write_ioerror_recovers)",
+          "kind": "passed",
+          "subtest": false
+        }
+      ]
+    },
+    "processes": [
+      {
+        "case": "test_storage.StorageTests.test_basic_sigint_drains_underfull_batch",
+        "phase": "exit",
+        "pid": 16314,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "30",
+          "--output",
+          "/tmp/tmpzgn9fd5y/pty",
+          "--db",
+          "/tmp/tmpzgn9fd5y/history.sqlite"
+        ],
+        "exit_code": 130,
+        "expected_exit": 130,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage.StorageTests.test_empty_eof_closes_thread_and_database",
+        "phase": "replay:out",
+        "pid": null,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--replay",
+          "/tmp/tmp9jj4ow67/out.bin",
+          "--boundary",
+          "aligned",
+          "--output",
+          "/tmp/tmp9jj4ow67/out",
+          "--db",
+          "/tmp/tmp9jj4ow67/history.sqlite"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage.StorageTests.test_monotonic_one_second_commit_visible_before_exit",
+        "phase": "exit",
+        "pid": 16320,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "30",
+          "--output",
+          "/tmp/tmpseud2cn7/pty",
+          "--db",
+          "/tmp/tmpseud2cn7/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage.StorageTests.test_refuse_unowned_database_without_modifying_it",
+        "phase": "replay:out",
+        "pid": null,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--replay",
+          "/tmp/tmp22tvhp03/out.bin",
+          "--boundary",
+          "aligned",
+          "--output",
+          "/tmp/tmp22tvhp03/out",
+          "--db",
+          "/tmp/tmp22tvhp03/history.sqlite"
+        ],
+        "exit_code": 1,
+        "expected_exit": 1,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage.StorageTests.test_replay_all_fields_batch_drain_and_reopen_append",
+        "phase": "replay:out",
+        "pid": null,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--replay",
+          "/tmp/tmpbs61ikdk/out.bin",
+          "--boundary",
+          "aligned",
+          "--output",
+          "/tmp/tmpbs61ikdk/out",
+          "--db",
+          "/tmp/tmpbs61ikdk/history.sqlite"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage.StorageTests.test_replay_all_fields_batch_drain_and_reopen_append",
+        "phase": "replay:second",
+        "pid": null,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--replay",
+          "/tmp/tmpbs61ikdk/second.bin",
+          "--boundary",
+          "aligned",
+          "--output",
+          "/tmp/tmpbs61ikdk/second",
+          "--db",
+          "/tmp/tmpbs61ikdk/history.sqlite"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage.StorageTests.test_stream_boundary_errors_and_tail_keep_stage2_counts",
+        "phase": "replay:out",
+        "pid": null,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--replay",
+          "/tmp/tmpyx8xrz0m/out.bin",
+          "--boundary",
+          "stream",
+          "--output",
+          "/tmp/tmpyx8xrz0m/out",
+          "--db",
+          "/tmp/tmpyx8xrz0m/history.sqlite"
+        ],
+        "exit_code": 1,
+        "expected_exit": 1,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_busy_recovers_without_duplicates_and_resumes_new_frames",
+        "phase": "exit",
+        "pid": 16335,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_busy_recovers_without_duplicates_and_resumes_new_frames/run",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_busy_recovers_without_duplicates_and_resumes_new_frames/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_int_and_term_drain_backlog",
+        "phase": "exit",
+        "pid": 16338,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_int_and_term_drain_backlog/2",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_int_and_term_drain_backlog/history.sqlite"
+        ],
+        "exit_code": 130,
+        "expected_exit": 130,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_int_and_term_drain_backlog",
+        "phase": "exit",
+        "pid": 16341,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--port",
+          "/dev/pts/1",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_int_and_term_drain_backlog/15",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_int_and_term_drain_backlog/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_migrate_v1_preserves_recent_history",
+        "phase": "exit",
+        "pid": 16344,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_migrate_v1_preserves_recent_history/run",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_migrate_v1_preserves_recent_history/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_parse_overlong_and_disconnect_events_round_trip",
+        "phase": "exit",
+        "pid": 16347,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_parse_overlong_and_disconnect_events_round_trip/run",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_parse_overlong_and_disconnect_events_round_trip/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch",
+        "phase": "exit",
+        "pid": 16350,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch/run",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch",
+        "phase": "exit",
+        "pid": 16353,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/1",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch/restart",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_persistent_busy_shutdown_is_bounded_and_counts_failed_batch/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_retention_batched_startup_and_monotonic_periodic_schedule",
+        "phase": "exit",
+        "pid": 16356,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_retention_batched_startup_and_monotonic_periodic_schedule/run",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_retention_batched_startup_and_monotonic_periodic_schedule/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_sigkill_inside_sqlite_transaction_rolls_back",
+        "phase": "exit",
+        "pid": 16359,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_sigkill_inside_sqlite_transaction_rolls_back/run",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_sigkill_inside_sqlite_transaction_rolls_back/history.sqlite"
+        ],
+        "exit_code": -9,
+        "expected_exit": -9,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_sigkill_inside_sqlite_transaction_rolls_back",
+        "phase": "exit",
+        "pid": 16362,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/1",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_sigkill_inside_sqlite_transaction_rolls_back/restart",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_sigkill_inside_sqlite_transaction_rolls_back/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_sigkill_preserves_commits_and_restart_reads_them",
+        "phase": "exit",
+        "pid": 16365,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_sigkill_preserves_commits_and_restart_reads_them/run",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_sigkill_preserves_commits_and_restart_reads_them/history.sqlite"
+        ],
+        "exit_code": -9,
+        "expected_exit": -9,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_sigkill_preserves_commits_and_restart_reads_them",
+        "phase": "exit",
+        "pid": 16368,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/1",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_sigkill_preserves_commits_and_restart_reads_them/restart",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_sigkill_preserves_commits_and_restart_reads_them/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_signal_masks_route_termination_only_to_main",
+        "phase": "exit",
+        "pid": 16371,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_signal_masks_route_termination_only_to_main/run",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_signal_masks_route_termination_only_to_main/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_signals_without_input_close_worker",
+        "phase": "exit",
+        "pid": 16374,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_signals_without_input_close_worker/2",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_signals_without_input_close_worker/history.sqlite"
+        ],
+        "exit_code": 130,
+        "expected_exit": 130,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_signals_without_input_close_worker",
+        "phase": "exit",
+        "pid": 16377,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/1",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_signals_without_input_close_worker/15",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_signals_without_input_close_worker/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_silent_and_resumed_events_persist",
+        "phase": "exit",
+        "pid": 16380,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_silent_and_resumed_events_persist/run",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_silent_and_resumed_events_persist/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_slow_writer_full_queue_continues_receiving",
+        "phase": "exit",
+        "pid": 16444,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_slow_writer_full_queue_continues_receiving/run",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_slow_writer_full_queue_continues_receiving/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_sqlite_full_from_actual_page_limit_recovers",
+        "phase": "exit",
+        "pid": 16447,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_sqlite_full_from_actual_page_limit_recovers/run",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_sqlite_full_from_actual_page_limit_recovers/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_storage_failures.StorageFailureTests.test_vfs_write_ioerror_recovers",
+        "phase": "exit",
+        "pid": 16450,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway-fault",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_vfs_write_ioerror_recovers/run",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/faults/test_vfs_write_ioerror_recovers/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      }
+    ],
+    "mqtt_suite": {
+      "tests_run": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true,
+      "outcomes": [
+        {
+          "test": "test_ack_timeout_recreates_client_without_old_queue (test_mqtt.MqttTests.test_ack_timeout_recreates_client_without_old_queue)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_connack_deadline_and_bounded_exit (test_mqtt.MqttTests.test_connack_deadline_and_bounded_exit)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_content_quality_qos_retained_and_shutdown (test_mqtt.MqttTests.test_content_quality_qos_retained_and_shutdown)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_eof_drain_and_mqtt_cli_validation (test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_idle_silence_network_loop_and_thread_roles (test_mqtt.MqttTests.test_idle_silence_network_loop_and_thread_roles)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_initial_broker_absent_latest_only_and_mailbox_bound (test_mqtt.MqttTests.test_initial_broker_absent_latest_only_and_mailbox_bound)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_killed_private_child_delivers_lwt (test_mqtt.MqttTests.test_killed_private_child_delivers_lwt)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_natural_end_preserves_mqtt_failure_and_storage (test_mqtt.MqttTests.test_natural_end_preserves_mqtt_failure_and_storage)",
+          "kind": "passed",
+          "subtest": false
+        },
+        {
+          "test": "test_saturated_tcp_listener_has_deadline (test_mqtt.MqttTests.test_saturated_tcp_listener_has_deadline)",
+          "kind": "passed",
+          "subtest": false
+        }
+      ]
+    },
+    "mqtt_processes": [
+      {
+        "case": "test_mqtt.MqttTests.test_ack_timeout_recreates_client_without_old_queue",
+        "phase": "exit",
+        "pid": 16455,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_ack_timeout_recreates_client_without_old_queue/run",
+          "--mqtt",
+          "--mqtt-port",
+          "40841"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_connack_deadline_and_bounded_exit",
+        "phase": "exit",
+        "pid": 16459,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_connack_deadline_and_bounded_exit/run",
+          "--mqtt",
+          "--mqtt-port",
+          "44183"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_content_quality_qos_retained_and_shutdown",
+        "phase": "exit",
+        "pid": 16464,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_content_quality_qos_retained_and_shutdown/run",
+          "--mqtt",
+          "--mqtt-port",
+          "46143",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_content_quality_qos_retained_and_shutdown/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+        "phase": "EOF",
+        "pid": null,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--replay",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+          "--boundary",
+          "aligned",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+          "--mqtt",
+          "--mqtt-port",
+          "51029",
+          "--gateway-id",
+          "eof-test"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+        "phase": "invalid CLI",
+        "pid": null,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--replay",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+          "--boundary",
+          "aligned",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+          "--mqtt-port",
+          "1234"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+        "phase": "invalid CLI",
+        "pid": null,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--replay",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+          "--boundary",
+          "aligned",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+          "--gateway-id",
+          "x"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+        "phase": "invalid CLI",
+        "pid": null,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--replay",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+          "--boundary",
+          "aligned",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+          "--mqtt",
+          "--device-id",
+          "bad/topic"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+        "phase": "invalid CLI",
+        "pid": null,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--replay",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+          "--boundary",
+          "aligned",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+          "--mqtt",
+          "--gateway-id",
+          "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+        "phase": "invalid CLI",
+        "pid": null,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--replay",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+          "--boundary",
+          "aligned",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+          "--mqtt",
+          "--mqtt-port",
+          "65536"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_eof_drain_and_mqtt_cli_validation",
+        "phase": "invalid CLI",
+        "pid": null,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--replay",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/input.bin",
+          "--boundary",
+          "aligned",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_eof_drain_and_mqtt_cli_validation/eof",
+          "--mqtt",
+          "--mqtt-host",
+          "example.com"
+        ],
+        "exit_code": 2,
+        "expected_exit": 2,
+        "stderr": "gateway (--port DEVICE --duration SECONDS [--discard-buffered] | --replay FILE --boundary aligned|stream) --output NEW_DIR [--db PATH] [--mqtt [--mqtt-port PORT] [--gateway-id ID] [--device-id ID]]\n",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_idle_silence_network_loop_and_thread_roles",
+        "phase": "exit",
+        "pid": 16536,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_idle_silence_network_loop_and_thread_roles/run",
+          "--mqtt",
+          "--mqtt-port",
+          "49723",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_idle_silence_network_loop_and_thread_roles/history.sqlite"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_initial_broker_absent_latest_only_and_mailbox_bound",
+        "phase": "exit",
+        "pid": 16542,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_initial_broker_absent_latest_only_and_mailbox_bound/run",
+          "--mqtt",
+          "--mqtt-port",
+          "52575"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_killed_private_child_delivers_lwt",
+        "phase": "exit",
+        "pid": 16602,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_killed_private_child_delivers_lwt/run",
+          "--mqtt",
+          "--mqtt-port",
+          "39825"
+        ],
+        "exit_code": -9,
+        "expected_exit": -9,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_natural_end_preserves_mqtt_failure_and_storage",
+        "phase": "exit",
+        "pid": 16606,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "2",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_natural_end_preserves_mqtt_failure_and_storage/run",
+          "--mqtt",
+          "--mqtt-port",
+          "52025",
+          "--db",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_natural_end_preserves_mqtt_failure_and_storage/history.sqlite"
+        ],
+        "exit_code": 1,
+        "expected_exit": 1,
+        "stderr": "",
+        "kind": "expected_exit"
+      },
+      {
+        "case": "test_mqtt.MqttTests.test_saturated_tcp_listener_has_deadline",
+        "phase": "exit",
+        "pid": 16610,
+        "command": [
+          "/home/ubuntu/project/build/20261112T062219Z-acb3629d/tsan/gateway",
+          "--port",
+          "/dev/pts/0",
+          "--duration",
+          "60",
+          "--output",
+          "/home/ubuntu/project/evidence/stage4-validation-03/tsan/mqtt/test_saturated_tcp_listener_has_deadline/run",
+          "--mqtt",
+          "--mqtt-port",
+          "49961"
+        ],
+        "exit_code": 143,
+        "expected_exit": 143,
+        "stderr": "",
+        "kind": "expected_exit"
+      }
+    ],
+    "global_policy": {
+      "mmap_rnd_bits_before": "32",
+      "mmap_rnd_bits_after": "32",
+      "randomize_va_space": "2",
+      "unchanged": true
+    },
+    "binaries": {
+      "gateway": "45780cdc5879e452cbe78bf743450318ac41417bf1cf2b673df12ea5d5ad6f89",
+      "gateway-fault": "0a3c76e6e70db3bf1726674a5982af905f19f5d0610e213db162a99fc0b54f4c",
+      "test_queue_threads": "feef471b33d80fbd4fbb9a0f6c04b7c38727306435d6c6273b5052d613f384c6"
+    }
+  },
+  "build_dir": "/home/ubuntu/project/build/20261112T062219Z-acb3629d",
+  "completed_utc": "2026-11-12T06:28:33.087862+00:00",
+  "binaries": {
+    "gateway": "594fc5059683206263873dc714616027e8bc3b7d1d4f630980d0f6dd833e3df1",
+    "sanitize/gateway": "1d63c2fe3d102aa2dd3141b2b7ea5f097e26df2b8b2d5c2ec8fca5aad775f1e2",
+    "tsan/gateway": "45780cdc5879e452cbe78bf743450318ac41417bf1cf2b673df12ea5d5ad6f89"
+  }
+}

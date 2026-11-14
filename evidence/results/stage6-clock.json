@@ -1,0 +1,6 @@
+{
+  "wall_span_s": 28794.356853,
+  "observation_monotonic_span_s": 28799.956150465998,
+  "difference_s": -5.599297465996642,
+  "interpretation": "Clock read deltas are observational candidates, not proof of individual NTP steps; UTC and monotonic reads were not simultaneous. Exact synchronization/scheduling attribution was not established. Original UTC retained. Frozen acceptance uses gateway CLOCK_MONOTONIC for 28800 seconds."
+}

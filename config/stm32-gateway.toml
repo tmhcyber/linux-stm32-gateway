@@ -1,0 +1,7 @@
+port = "/dev/ttyS1"
+state = "/var/lib/stm32-gateway"
+socket = "/run/stm32-gateway/control.sock"
+mqtt = true
+mqtt_port = 1883
+gateway_id = "gw-01"
+device_id = "stm32-01"

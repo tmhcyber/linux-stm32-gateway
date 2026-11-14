@@ -21,6 +21,8 @@ class PublicGuardTests(unittest.TestCase):
             ('evidence/devices.json', b'{"InstanceId":"BTH' + b'ENUM address"}'),
             ('README.md', b'local file C:' + bytes([92]) + b'Users' + bytes([92]) + b'example'),
             ('.local/example.key', b'private material'),
+            ('evidence/history.sqlite', b'private database'),
+            ('evidence/firmware.axf', b'private firmware image'),
             ('evidence/host-preflight.json', b'{"Volumes":[]}'),
         ]
         for path, data in samples:

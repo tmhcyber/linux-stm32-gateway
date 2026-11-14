@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "continuous_8h_passed": true,
+  "utc": "2026-11-14T10:55:47.981271+00:00",
+  "fixed_files_verified": 114,
+  "config_unit_unchanged": true,
+  "old_stage5_unchanged": true,
+  "pids": [
+    3147
+  ],
+  "invocations": [
+    "9cc243c981964b72beeecc602a56faa8"
+  ],
+  "observation_count": 481,
+  "resource_samples": 479,
+  "history_records_checked": 1437,
+  "history_no_data_responses": 0,
+  "rss_kib_min": 6080,
+  "rss_kib_max": 8176,
+  "fd_count_min": 18,
+  "fd_count_max": 18,
+  "history_max_elapsed_ms": 110.34728300001007,
+  "query_max_execution_ms": 0.823422,
+  "max_legal_frame_age_s": 1.004018,
+  "max_diagnostic_age_s": 4.99705,
+  "max_observation_gap_s": 60.05807148799977,
+  "final_service": "MainPID=0\nResult=success\nActiveState=inactive\nUnitFileState=disabled\n",
+  "serial_receivers": [],
+  "source_sha256": "d474c4a2f7cab0b1e4da4bb4963b9923d9a5e6786e910c25c516d0c51a0485ec"
+}
