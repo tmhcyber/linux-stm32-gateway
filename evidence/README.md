@@ -26,6 +26,6 @@
 
 每阶段的软件统计对应当时版本；最终83项是阶段6历史回归结果。公开版追加的安全/发布检查在[公开版复验](PUBLIC_RELEASE.md)单独记录。
 
-原阶段5约2小时57分钟长测因输入中断结束，[原结果](results/stage5-interrupted.json)保留false；持续运行要求由阶段6最终版本的独立8小时窗口完成。Fault实板窗口按MQTT最新值语义发布74/75条，SQLite完整保存75条；最终8小时窗口遥测发布28,794/28,794。
+阶段5早期实板记录见[阶段5运行记录](results/stage5-interrupted.json)，连续8小时验收在阶段6最终集成版完成（28,794/28,794条遥测入库并获MQTT确认）。Fault恢复窗口中SQLite完整保存75条遥测，MQTT按最新值邮箱语义发布74条。
 
-复现使用私有PTY、临时数据库与回环broker；实板使用STM32 USART1→Windows CH340→VirtualBox UART2→Ubuntu ttyS1。运行结果中的受控SIGTERM退出143与验收器passed字段分别表示服务退出方式和验收结论。
+复现使用私有PTY、临时数据库与回环broker；实板使用STM32 USART1→Windows CH340→VirtualBox UART2→Ubuntu ttyS1。

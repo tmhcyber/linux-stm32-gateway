@@ -16,7 +16,7 @@
 - v1包含27个必需字段：`v/reason/flags/gap/coal/snap/n`及两个点各10字段。重复、缺失、未知字段和非法整数分类计数。
 - 两个点分别为SHT30温度、湿度；整数值配合scale=-3表达物理量。质量状态区分VALID、STALE、OFFLINE、NOT_AVAILABLE；失败时保留最后成功值。
 - `rx_id`表示Linux接收身份，`seq`表示MCU成功采样序号；UTC记录Linux接收时间，MCU毫秒字段记录启动后时间。
-- 回放显式选择 `aligned`（从完整正文开始）或 `stream`（先同步到CRLF）。UART v1按格式和语义校验，帧级CRC与MCU唯一启动ID属于协议扩展点。
+- 回放显式选择 `aligned`（从完整正文开始）或 `stream`（先同步到CRLF）；UART v1 对所有字段执行格式与语义校验。
 
 | 输出 | 内容 |
 | --- | --- |

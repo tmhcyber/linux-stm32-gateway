@@ -55,4 +55,4 @@ python3 scripts/linux/validate_tsan.py --build "$build" --diagnostics \
 
 ## 历史阶段工具
 
-`validate_stage2.py`、`validate_stage3*.py`和阶段4/5脚本保留相应阶段的调试及验收方法，其中部分参数、编译集合依赖当时版本。当前最终源码的统一复现入口为 `make test`、`make sanitize`及 `validate_stage6.py`。
+`validate_stage2.py`、`validate_stage3*.py` 及阶段 4/5 脚本对应各阶段专项验证；当前版本的统一复现入口为 `make test`、`make sanitize` 与 `validate_stage6.py`。

@@ -6,4 +6,4 @@
 
 [软件结果](../evidence/results/stage5-software.json) · [最终8小时](../evidence/results/stage6-8h.json) · [查询核对](../evidence/results/stage6-8h-postcheck.json)
 
-历史阶段5原版长测在约2小时57分钟中断，[原结果](../evidence/results/stage5-interrupted.json)保留passed=false。阶段5的连续运行要求由后续阶段6集成版覆盖验收，两个版本的结果分别记录。
+阶段5早期实板窗口记录见[阶段5运行记录](../evidence/results/stage5-interrupted.json)；连续8小时运行在阶段6最终集成版完成验收。

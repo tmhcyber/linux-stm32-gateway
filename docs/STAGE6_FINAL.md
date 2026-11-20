@@ -24,7 +24,7 @@ Fault测试以受控SRAM指令触发UsageFault，记录fault_type=4、PC=0x2001D
 - Linux应用来源标识：`6cab3ad828251fd4db5b318645592f34559f3c1a`；[公开源码与逐文件哈希](../evidence/SOURCE_CODE.json)。
 - 受测gateway SHA256：`ae544c10b5a7ea105ee3b38f395e7c63787af36a3a74b5cb0caf638ff04cf0f6`。
 
-上述提交值为原开发来源标识；公开版源码通过当前仓库路径浏览。实际运行以固定二进制和来源清单绑定。公开版的文档与安全工具更新由[发布复验记录](../evidence/PUBLIC_RELEASE.md)单独记录。
+上述哈希与来源清单（[SOURCE_CODE](../evidence/SOURCE_CODE.json)）绑定最终受测固件与网关二进制，公开版回归复验见[发布复验记录](../evidence/PUBLIC_RELEASE.md)。
 
 ## 连续8小时方法
 
@@ -32,6 +32,6 @@ Fault测试以受控SRAM指令触发UsageFault，记录fault_type=4、PC=0x2001D
 
 UTC原值为2026-11-14 02:54:56—10:54:50Z。原观测UTC与单调读数的差异见[时钟记录](../evidence/results/stage6-clock.json)，持续时长以单调时钟判定。
 
-[最终运行结果](../evidence/results/stage6-8h.json)及[退出后独立检查](../evidence/results/stage6-8h-postcheck.json)的 `passed`、`continuous_8h_passed`均为true。SIGTERM退出143、complete=false对应连续服务的受控停止；验收通过由独立检查给出。
+[最终运行结果](../evidence/results/stage6-8h.json)及[退出后独立检查](../evidence/results/stage6-8h-postcheck.json)的 `passed`、`continuous_8h_passed` 均为 true（到时后由 SIGTERM 正常停止服务并完成全量核对）。
 
 后续复验需先准备对应固件、固定release及FINAL.json，并使用 `scripts/linux/start_stage6_acceptance.sh`的固定发布入口；新环境先按[测试指南](TESTING.md)执行离线测试，再准备独立实板部署。串口路线、配置和数据库与版本一起绑定。

@@ -14,7 +14,7 @@
 - 最新值邮箱将网络积压限制在固定容量；SQLite保存完整历史，MQTT恢复时发送当前快照。
 - 每主题门控in-flight，连接、ACK、重连退避和退出均有期限；网络恢复不会清除历史故障计数。
 - SIGTERM收尾尝试排空快照、发布offline并等待ACK，`offline_acked`记录结果。
-- PUBACK记录broker确认；订阅端业务处理可在上层增加独立确认。诊断状态采用最新快照语义。
+- PUBACK记录broker确认，诊断状态采用最新快照语义。
 
 ## 验证结果
 
@@ -31,4 +31,4 @@ build/gateway --port /dev/ttyS1 --duration 60 --output NEW_DIR \
   --db HISTORY_DB --mqtt --mqtt-port 1883
 ```
 
-broker应已运行；数据库与输出使用明确路径。当前传输使用本机MQTT，远端TLS接入可在后续部署中扩展。
+运行前启动本机 broker，并指定数据库与输出目录路径。

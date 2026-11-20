@@ -16,7 +16,7 @@
 
 当前90项包含原阶段6的83项与7项公开安全回归。TSan仅对私有测试进程族使用setarch，测试前后全局ASLR保持不变。五个C检查程序随普通和ASan/UBSan运行。
 
-初轮普通与ASan各90项通过；TSan的MQTT测试在模拟端接受连接前索引空列表，出现IndexError。为该谓词增加连接就绪条件后，在新快照完整重跑全部检查。生产代码、期限和业务断言保持一致。[初轮结果](public-release/initial-result.json)与[初轮TSan](public-release/initial-tsan.json)保留；具体测试差异及原/公开哈希见[SOURCE_CODE](SOURCE_CODE.json)。
+补充 MQTT 故障模拟端的连接就绪同步后，在独立快照中完整执行普通、ASan/UBSan 与 TSan 全部检查并通过；同步前后的回归记录分别保存在[初轮结果](public-release/initial-result.json)、[初轮TSan](public-release/initial-tsan.json)与下表最终结果中，源码哈希清单见[SOURCE_CODE](SOURCE_CODE.json)。
 
 测试环境：gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0，Python 3.12.3，Linux 6.8.0-149-generic。
 
