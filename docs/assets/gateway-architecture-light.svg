@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 248" width="1120" height="248" role="img" aria-label="Linux + STM32 跨端网关系统架构">
+  <defs>
+    <marker id="arr-l" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arr-s" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748B"/>
+    </marker>
+  </defs>
+
+  <!-- Outer frame -->
+  <rect x="1" y="1" width="1118" height="246" rx="12" fill="#F8FAFC" stroke="#BAE6FD" stroke-width="1.5"/>
+  <text x="22" y="25" font-family="Consolas, 'Cascadia Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#0284C7">CROSS-PLATFORM GATEWAY ARCHITECTURE</text>
+  <text x="1098" y="25" text-anchor="end" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12" fill="#475569">STM32F407 设备端 → Linux C11 用户态采集、存储、分发与运维</text>
+
+  <!-- Col 1: STM32 -->
+  <rect x="20" y="96" width="188" height="114" rx="8" fill="#0C4A6E" stroke="#0369A1" stroke-width="1.4"/>
+  <text x="114" y="127" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="700" fill="#FFFFFF">STM32F407 + SHT30</text>
+  <text x="114" y="150" text-anchor="middle" font-family="Consolas, 'Cascadia Mono', monospace" font-size="11" fill="#BAE6FD">USART1 · 115200 8N1</text>
+  <text x="114" y="170" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11" fill="#E0F2FE">遥测 + d=1 19 字段诊断</text>
+  <text x="114" y="191" text-anchor="middle" font-family="Consolas, 'Cascadia Mono', monospace" font-size="10.2" font-weight="700" fill="#7DD3FC">VALID / STALE / OFFLINE</text>
+
+  <!-- Arrow 1 -->
+  <text x="239" y="132" text-anchor="middle" font-family="Consolas, 'Cascadia Mono', monospace" font-size="10" font-weight="700" fill="#0F3A5D">/dev/ttyS1</text>
+  <text x="239" y="145" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="9.5" fill="#64748B">CH340 UART</text>
+  <line x1="210" y1="153" x2="266" y2="153" stroke="#0284C7" stroke-width="2" marker-end="url(#arr-l)"/>
+
+  <!-- Col 2 Top: systemd -->
+  <rect x="272" y="42" width="216" height="36" rx="6" fill="#F1F5F9" stroke="#94A3B8" stroke-width="1.2"/>
+  <text x="380" y="64.5" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="700" fill="#334155">systemd 普通用户服务守护</text>
+  <line x1="380" y1="78" x2="380" y2="92" stroke="#64748B" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#arr-s)"/>
+
+  <!-- Col 2 Core: Linux C11 -->
+  <rect x="272" y="96" width="216" height="114" rx="8" fill="#F0F9FF" stroke="#0284C7" stroke-width="1.8"/>
+  <text x="380" y="125" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="13.8" font-weight="700" fill="#0F3A5D">Linux C11 接收解析</text>
+  <text x="380" y="149" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11.3" fill="#0369A1">poll + 509 B 有界组帧</text>
+  <text x="380" y="169" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11.3" fill="#334155">坏行丢弃与 CRLF 重同步</text>
+  <text x="380" y="190" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="10.8" font-weight="700" fill="#0284C7">严格校验 · JSONL / 原始流</text>
+
+  <!-- Branched Arrows -->
+  <path d="M 488 122 C 518 122, 518 68, 544 68" fill="none" stroke="#0284C7" stroke-width="1.8" marker-end="url(#arr-l)"/>
+  <path d="M 488 153 C 516 153, 518 133, 544 133" fill="none" stroke="#0284C7" stroke-width="1.8" marker-end="url(#arr-l)"/>
+  <path d="M 488 184 C 518 184, 518 198, 544 198" fill="none" stroke="#0284C7" stroke-width="1.8" marker-end="url(#arr-l)"/>
+
+  <!-- Col 3: Workers / IPC -->
+  <rect x="550" y="42" width="258" height="52" rx="7" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="1.3"/>
+  <text x="679" y="64" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="700" fill="#0F3A5D">存储线程 · SQLite v3</text>
+  <text x="679" y="82.5" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11" fill="#475569">256 项有界队列 · 批量事务 · 原子建库</text>
+
+  <rect x="550" y="107" width="258" height="52" rx="7" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="1.3"/>
+  <text x="679" y="129" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="700" fill="#0F3A5D">MQTT 线程 · QoS 1</text>
+  <text x="679" y="147.5" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11" fill="#475569">最新值邮箱 · 重连清旧 · 有界期限</text>
+
+  <rect x="550" y="172" width="258" height="52" rx="7" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="1.3"/>
+  <text x="679" y="194" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="700" fill="#0F3A5D">Unix Socket · gatewayctl</text>
+  <text x="679" y="212.5" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11" fill="#475569">status / latest / history 分页查询</text>
+
+  <!-- Right Arrows -->
+  <line x1="808" y1="68" x2="854" y2="68" stroke="#0284C7" stroke-width="1.8" marker-end="url(#arr-l)"/>
+  <line x1="808" y1="133" x2="854" y2="133" stroke="#0284C7" stroke-width="1.8" marker-end="url(#arr-l)"/>
+  <line x1="808" y1="198" x2="854" y2="198" stroke="#0284C7" stroke-width="1.8" marker-end="url(#arr-l)"/>
+
+  <!-- Col 4: Verified Outputs -->
+  <rect x="860" y="42" width="240" height="52" rx="7" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1.3"/>
+  <text x="980" y="64" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="700" fill="#0C4A6E">全量入库核对（8 小时）</text>
+  <text x="980" y="82.5" text-anchor="middle" font-family="Consolas, 'Cascadia Mono', 'Microsoft YaHei', monospace" font-size="11" font-weight="700" fill="#0284C7">28,794 遥测 + 5,759 诊断</text>
+
+  <rect x="860" y="107" width="240" height="52" rx="7" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1.3"/>
+  <text x="980" y="129" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="700" fill="#0C4A6E">MQTT Broker / 订阅端</text>
+  <text x="980" y="147.5" text-anchor="middle" font-family="Consolas, 'Cascadia Mono', monospace" font-size="11" font-weight="700" fill="#0284C7">28,794 / 28,794 PUBACK</text>
+
+  <rect x="860" y="172" width="240" height="52" rx="7" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3"/>
+  <text x="980" y="194" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="700" fill="#1E293B">独立退出历史核对</text>
+  <text x="980" y="212.5" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11" fill="#475569">1,437 项历史逐字段匹配</text>
+</svg>

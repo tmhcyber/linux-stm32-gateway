@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 156" width="1120" height="156" role="img" aria-label="Linux + STM32 数据采集与诊断网关">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2239"/>
+      <stop offset="55%" stop-color="#0F3A5D"/>
+      <stop offset="100%" stop-color="#0C4A6E"/>
+    </linearGradient>
+    <linearGradient id="topStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="55%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#7DD3FC"/>
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="1118" height="154" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect x="1" y="1" width="1118" height="154" rx="12" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="1120" height="4.5" fill="url(#topStripe)"/>
+
+    <!-- Subtle right-side grid & telemetry pipeline motif -->
+    <g opacity="0.12" stroke="#7DD3FC" stroke-width="1">
+      <line x1="726" y1="22" x2="1092" y2="22"/>
+      <line x1="726" y1="56" x2="1092" y2="56"/>
+      <line x1="726" y1="90" x2="1092" y2="90"/>
+      <line x1="726" y1="124" x2="1092" y2="124"/>
+      <line x1="810" y1="16" x2="810" y2="140"/>
+      <line x1="904" y1="16" x2="904" y2="140"/>
+      <line x1="998" y1="16" x2="998" y2="140"/>
+    </g>
+
+    <!-- Pipeline status cards -->
+    <g font-family="Consolas, 'Cascadia Mono', monospace" font-size="10.5">
+      <rect x="742" y="29" width="344" height="24" rx="5" fill="#07192C" fill-opacity="0.58" stroke="#38BDF8" stroke-opacity="0.32"/>
+      <circle cx="755" cy="41" r="3" fill="#38BDF8"/>
+      <text x="765" y="44.5" fill="#E0F2FE" opacity="0.88">ttyS1 -&gt; framer -&gt; SQLite v3</text>
+      <text x="1076" y="44.5" text-anchor="end" fill="#7DD3FC" opacity="0.9">28,794 + 5,759</text>
+
+      <rect x="742" y="61" width="344" height="24" rx="5" fill="#07192C" fill-opacity="0.58" stroke="#38BDF8" stroke-opacity="0.32"/>
+      <circle cx="755" cy="73" r="3" fill="#7DD3FC"/>
+      <text x="765" y="76.5" fill="#E0F2FE" opacity="0.88">mailbox -&gt; MQTT QoS 1</text>
+      <text x="1076" y="76.5" text-anchor="end" fill="#7DD3FC" opacity="0.9">28,794 PUBACK</text>
+
+      <rect x="742" y="93" width="344" height="24" rx="5" fill="#07192C" fill-opacity="0.58" stroke="#38BDF8" stroke-opacity="0.32"/>
+      <circle cx="755" cy="105" r="3" fill="#BAE6FD"/>
+      <text x="765" y="108.5" fill="#E0F2FE" opacity="0.88">gatewayctl &lt;-&gt; Unix Socket</text>
+      <text x="1076" y="108.5" text-anchor="end" fill="#7DD3FC" opacity="0.9">1,437 history</text>
+    </g>
+
+    <text x="1086" y="138" text-anchor="end" font-family="Consolas, 'Cascadia Mono', monospace" font-size="10.2" fill="#BAE6FD" opacity="0.78">28,800.13 s · 0 restarts · 18 FD</text>
+  </g>
+
+  <rect x="1" y="1" width="1118" height="154" rx="12" fill="none" stroke="#38BDF8" stroke-opacity="0.28" stroke-width="1.5"/>
+
+  <!-- Left typography -->
+  <text x="36" y="36" font-family="Consolas, 'Cascadia Mono', monospace" font-size="11.5" font-weight="700" letter-spacing="1.3" fill="#7DD3FC">UBUNTU 24.04 · C11 / POSIX · LINUX EMBEDDED GATEWAY</text>
+  <text x="36" y="72" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">Linux + STM32 数据采集与诊断网关</text>
+  <text x="36" y="99" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="13.2" fill="#CBD5E1">poll / 509 B 组帧 · pthread + SQLite v3 · MQTT QoS 1 · Unix Socket IPC · systemd</text>
+
+  <!-- Tech pills -->
+  <g font-family="Consolas, 'Cascadia Mono', monospace" font-size="11.5" font-weight="700" fill="#E0F2FE" text-anchor="middle">
+    <rect x="36" y="114" width="112" height="24" rx="12" fill="#0369A1" fill-opacity="0.45" stroke="#38BDF8" stroke-opacity="0.42"/>
+    <text x="92" y="130">C11 / POSIX</text>
+
+    <rect x="158" y="114" width="148" height="24" rx="12" fill="#0369A1" fill-opacity="0.45" stroke="#38BDF8" stroke-opacity="0.42"/>
+    <text x="232" y="130">SQLite v3 / Atomic</text>
+
+    <rect x="316" y="114" width="106" height="24" rx="12" fill="#0369A1" fill-opacity="0.45" stroke="#38BDF8" stroke-opacity="0.42"/>
+    <text x="369" y="130">MQTT QoS 1</text>
+
+    <rect x="432" y="114" width="152" height="24" rx="12" fill="#0369A1" fill-opacity="0.45" stroke="#38BDF8" stroke-opacity="0.42"/>
+    <text x="508" y="130">ASan 90 / TSan 48</text>
+  </g>
+</svg>
